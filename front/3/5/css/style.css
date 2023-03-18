@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  border-spacing: 40px;
+}
+p {
+  color: #808080;
+}
+input {
+  width: 100%;
+}
+select {
+  width: 100%;
+}
+#colortable {
+  background-color: #95ca57;
+}
+
+#greenp {
+  color: #95ca57;
+}
+#headdiv {
+  padding-left: 40px;
+}
+
+#headp {
+  color: #ffffff;
+  font-size: 30px;
+}
+#logo {
+  text-align: right;
+}
+
+#input {
+  width: 60px;
+  height: 30px;
+}

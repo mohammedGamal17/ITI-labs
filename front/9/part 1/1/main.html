@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>News App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <form action="">
+      <div id="newsHeader">
+        <span id="head">News Type: </span>
+        <span id="sports">sports</span>
+        <input type="radio" name="newsType" id="sports" value="sports" />
+        <span id="social"> Social</span>
+        <input type="radio" name="newsType" id="social" value="social" />
+        <span id="politics">Politics</span>
+        <input type="radio" name="newsType" id="politics" value="politics" />
+      </div>
+      <div id="inputBody">
+        <input type="text" name="newsInput" id="newsInput" />
+        <input
+          type="button"
+          value="add"
+          id="add"
+          onclick="setValueInTable();"
+        />
+      </div>
+      <div id="searchBody">
+        <span>Search</span>
+        <input type="text" name="searchValue" id="searchValue" />
+        <input
+          type="button"
+          value="search"
+          id="search"
+          onclick="getValues();"
+        />
+      </div>
+      <hr />
+      <table id="table">
+        <tr>
+          <th>News</th>
+          <th>Category</th>
+        </tr>
+      </table>
+      <hr />
+      <table id="searchTable">
+        <tr>
+          <th>News</th>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

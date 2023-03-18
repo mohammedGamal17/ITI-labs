@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task 1</title>
+    <style>
+      table {
+        width: 500px;
+        padding: 10px;
+        margin: 20px;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 10px;
+      }
+    </style>
+    <script>
+      var i = 0;
+
+      function addNewRow() {
+        i++;
+        // Get Elements
+        var table = document.getElementById("tableHTML");
+        var name = document.getElementById("nameHTML");
+        // Create Elements
+        var createdTr = document.createElement("tr");
+        var createdFirstTd = document.createElement("td");
+        createdFirstTd.innerText = i;
+        var createdSecondTd = document.createElement("td");
+        createdSecondTd.innerText = name.value;
+        // Set Value
+        createdTr.appendChild(createdFirstTd);
+        createdTr.appendChild(createdSecondTd);
+        table.appendChild(createdTr);
+      }
+      function showCount() {
+        var countText = document.getElementById("count");
+        countText.innerText = i;
+      }
+    </script>
+  </head>
+  <body>
+    <input type="text" name="name" id="nameHTML" />
+    <input type="button" onclick="addNewRow();" value="AddRow" />
+    <table id="tableHTML">
+      <tr>
+        <th>No.</th>
+        <th>Name</th>
+      </tr>
+    </table>
+    <input type="button" onclick="showCount();" value="Show Count" />
+    <span id="count"></span>
+  </body>
+</html>

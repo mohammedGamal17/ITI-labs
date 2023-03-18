@@ -1,0 +1,145 @@
+<html>
+  <head>
+    <title>Task1</title>
+    <script>
+      // 1.2
+      do {
+        // Ask for Len of Arr
+        var len = prompt("Enter Your len:");
+        if (!IsNotNumber(len)) {
+          do {
+            // Ask for elements in arr
+            var numbers = prompt("Enter Your Numbers:\nex:1,2,3,4").split(",");
+            if (
+              numbers.length == len &&
+              IsNotNumberForElementsInArray(numbers)
+            ) {
+              var flag = false;
+              do {
+                var select = prompt(
+                  "a : to display array with the same receiving order\nb : to display array with ascending order\nc : to display array with descending order\nd : to reversed version of original array\ne : to display even numbers only from array if there no even numbers , display alert to inform user with that\nf : receive number from user then display all numbers from array which divisible by received number , if there no result inform user with that\ng : display new array with 30% discount for all numbers in original array\nh : display string which represent all numbers of array concated with ***"
+                );
+                select.toLocaleLowerCase();
+                switch (select) {
+                  case "a":
+                    alert(numbers);
+                    IsContinue(flag);
+                    break;
+                  case "b":
+                    getAscendingSort(numbers);
+                    IsContinue(flag);
+                    break;
+                  case "c":
+                    getAscendingSort(numbers);
+                    IsContinue(flag);
+                    break;
+                  case "d":
+                    getReversedArray(numbers);
+                    IsContinue(flag);
+                    break;
+                  case "e":
+                    getEvenNumber(numbers);
+                    IsContinue(flag);
+                    break;
+                  case "f":
+                    divisibleByReceivedNumber(numbers);
+                    IsContinue(flag);
+                    break;
+                  case "g":
+                    getThirtyHundredPercentageDiscount(numbers);
+                    IsContinue(flag);
+
+                    break;
+                  case "h":
+                    setStar(numbers);
+                    IsContinue(flag);
+                    break;
+
+                  default:
+                    alert("Please Select from menu!");
+                    IsContinue(flag);
+                    break;
+                }
+              } while (!flag);
+            } else {
+              alert(
+                "Please Enter Valid number and must numbers you entered equal len"
+              );
+            }
+          } while (
+            numbers.length != len ||
+            !IsNotNumberForElementsInArray(numbers)
+          );
+        } else {
+          alert("Please Enter Valid number");
+        }
+      } while (IsNotNumber(parseInt(len)));
+
+      /* Check if is number or not */
+      function IsNotNumber(num) {
+        return isNaN(num) || num == 0;
+      }
+
+      function IsNotNumberForElementsInArray(numbers) {
+        var isElementNum = true;
+        numbers.forEach((element) => {
+          if (IsNotNumber(element)) {
+            isElementNum = false;
+          }
+        });
+        return isElementNum;
+      }
+      function getAscendingSort(numbers) {
+        var ascendingSort = numbers.slice();
+        alert(ascendingSort.sort((a, b) => a - b));
+      }
+      function getAscendingSort(numbers) {
+        var descendingSort = numbers.slice();
+        alert(descendingSort.sort((a, b) => b - a));
+      }
+      function getReversedArray(numbers) {
+        var reversedArr = numbers.slice();
+        alert(reversedArr.reverse());
+      }
+      function getEvenNumber(numbers) {
+        var evenNum = numbers.slice();
+        var evens = evenNum.filter((number) => number % 2 == 0);
+        if (evens.length != 0) {
+          alert(evens);
+        } else {
+          alert("no even numbers!");
+        }
+      }
+      function divisibleByReceivedNumber(numbers) {
+        do {
+          var dividedNum = prompt("enter Your Number");
+          if (dividedNum != 0) {
+            var dividedArr = numbers.slice();
+            var evens = dividedArr.filter((number) => number % dividedNum == 0);
+            if (evens.length != 0) {
+              alert(evens);
+            } else {
+              alert("no divisible by Entered number!");
+            }
+          } else {
+            alert("Math Error!!");
+          }
+        } while (dividedNum == 0 || isNaN(dividedNum));
+      }
+      function getThirtyHundredPercentageDiscount(numbers) {
+        var discountArr = numbers.slice();
+        var discountNum = discountArr.map((number) => number * 0.7);
+        alert(discountNum);
+      }
+      function setStar(params) {
+        var joinStar = numbers.slice();
+        alert(joinStar.join("***"));
+      }
+      function IsContinue(flag) {
+        flag = confirm("Do You Wont to Continue?");
+        return flag;
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Second Page</title>
+  </head>
+  <body>
+    <script>
+      // 1-  Enter String
+      var text =
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae autem alias quidem quibusdam cum. Aut ducimus corrupti assumenda sunt soluta saepe sint eaque rem, earum error, beatae excepturi enim magni.";
+      // 2-  Split String
+      var arr = text.split("");
+      // 3- Init Counter
+      var i = 0;
+
+      // 4- add every char in page and increase count
+      function showText() {
+        // 5- check if Indexer less than arr len
+        if (i < arr.length) {
+          document.write(arr[i]);
+          i++;
+        }
+      }
+      // 6- do function every sec/2
+      setInterval(showText, 500);
+    </script>
+  </body>
+</html>

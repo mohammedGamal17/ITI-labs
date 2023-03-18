@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <title>Task 3</title>
+  </head>
+  <body></body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+      #maincontainer {
+        width: 800px;
+        padding: 10px;
+        margin: 10px auto;
+
+        text-align: center;
+      }
+      #myImg {
+        width: 400px;
+        height: 400px;
+      }
+      #buttonscontainer {
+        width: 450px;
+
+        padding: 5px;
+        margin: 10px auto;
+      }
+      #buttonscontainer > input {
+        width: 70px;
+        padding: 5px;
+        outline: none;
+        margin: 10px;
+        border: none;
+        font-weight: bold;
+        border-radius: 10px;
+      }
+      #buttonscontainer > input:hover {
+        background-color: green;
+      }
+      #buttonscontainer > input:focus {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="maincontainer">
+      <img src="UP/1.jpg" id="myImg" />
+      <div id="buttonscontainer">
+        <input type="button" value="Start" onclick="startSlide();" />
+        <input type="button" value="Next" onclick="goNext();" />
+        <input type="button" value="Prev" onclick="goPrev();" />
+        <input type="button" value="Stop" onclick="stopSlide();" />
+      </div>
+    </div>
+    <script>
+      var isStart = false;
+      var allImages = [
+        "UP/1.jpg",
+        "UP/2.jpg",
+        "UP/3.jpg",
+        "UP/4.jpg",
+        "UP/5.jpg",
+        "UP/6.jpg",
+      ];
+      var i = 0;
+      function startSlide() {
+        if (!isStart) {
+          t = setInterval(goNext, 1000);
+        }
+        isStart = true;
+      }
+      function goNext() {
+        i++;
+        if (i >= allImages.length) i = 0;
+        myImg.src = allImages[i];
+      }
+      function goPrev() {
+        i--;
+        if (i < 0) i = allImages.length - 1;
+        myImg.src = allImages[i];
+      }
+      function stopSlide() {
+        if (isStart) {
+          clearInterval(t);
+        }
+      }
+    </script>
+  </body>
+</html>

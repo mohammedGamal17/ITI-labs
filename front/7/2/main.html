@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Task 2</title>
+  </head>
+  <body>
+    <h1 id="countId"></h1>
+    <script>
+      var backgroundImages = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"];
+      function generateRandom(min = 0, max = 5) {
+        for (i = 0; i < max; i++) {
+          x = Math.floor(Math.random() * max) + min;
+        }
+        return x;
+      }
+      var num = 10;
+      function generateBackGroundImage() {
+        document.body.style.backgroundImage =
+          "url(UP/" + backgroundImages[generateRandom()] + ")";
+      }
+      function countDown() {
+        num--;
+        document.getElementById("countId").innerHTML = num;
+        if (num == 0) num = 10;
+      }
+      setInterval(generateBackGroundImage, 1000);
+      setInterval(countDown, 1000);
+    </script>
+  </body>
+</html>

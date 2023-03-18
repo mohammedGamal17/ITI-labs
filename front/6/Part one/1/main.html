@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Task1</title>
+    <script>
+      var isValid = false;
+      do {
+        var numbers = prompt("enter your numbers");
+        var arr = numbers.split(",");
+        arr.forEach((element) => {
+          if (isNaN(element)) {
+            isValid = false;
+          } else {
+            isValid = true;
+          }
+          console.log(isValid);
+        });
+      } while (!isValid);
+    </script>
+  </head>
+  <body></body>
+</html>

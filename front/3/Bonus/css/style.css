@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("../images/bc.png");
+}
+h2 {
+  margin: 60px 0px;
+  text-align: center;
+}
+#header {
+  width: 100%;
+}
+#maintable {
+}
+#contentbody {
+  border: 5px solid #808080;
+}
+
+#firsttable {
+  width: 100%;
+  background-color: #008000;
+}
+#right {
+  background-color: #008000;
+}
+#footer {
+  background-color: #008000;
+}

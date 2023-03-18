@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border: 1px solid #000000;
+  border-spacing: 2px;
+}
+
+#headtr {
+  background-color: #4f81bd;
+  padding: 20px;
+  margin: 20px;
+}
+
+#headerfullcell {
+  color: #ffffff;
+  width: 200px;
+  height: 30px;
+}
+
+#colspancell {
+  color: #00008b;
+  font-weight: bold;
+  font-style: italic;
+  height: 30px;
+}
+
+#team {
+  background-color: #b8cce4;
+}
+#edit {
+  background-color: #f2f2f2;
+  color: #808080;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}

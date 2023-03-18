@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+hr {
+  margin: 0px 100px;
+  border: 1px dotted #808080;
+}
+div {
+  padding: 10px;
+  margin: 20px;
+}
+table {
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+}
+td,
+tr {
+  border: 1px solid #000000;
+}
+
+#head {
+  font-size: 24px;
+  font-weight: bold;
+}

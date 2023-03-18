@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Second screen</title>
+  </head>
+  <body>
+    <img src="" id="genderImg" />
+    <span> Welcome </span> <span id="username"></span>
+
+    <script>
+      var search = location.search.split("?");
+      var data = search[1].split("&");
+      var username = data[0].split("=")[1];
+      var age = data[1].split("=")[1];
+      var gender = data[2].split("=")[1];
+      var color = data[3].split("=")[1];
+      // console.log(location.search);
+      // console.log(search);
+      // console.log(data);
+      // console.log(username);
+      //   console.log(age);
+      //   console.log(gender);
+      //   console.log(color);
+
+      function checkGender(gender) {
+        var img = document.getElementById("genderImg");
+        if (gender == "male") {
+          img.src = "../img/male.png";
+        } else {
+          img.src = "../img/female.png";
+        }
+      }
+
+      function getUserName(name, color) {
+        var username = document.getElementById("username");
+        username.innerText = name;
+        username.style.color = color;
+      }
+
+      checkGender(gender);
+      getUserName(username, color);
+    </script>
+  </body>
+</html>

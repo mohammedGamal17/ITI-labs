@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Task4</title>
+    <script>
+      var names = prompt("Enter Your Names:\nex: Mohammed,Ahmed,Mahmoud.");
+      var arr = names.split(",");
+
+      var randomNames = [];
+
+      // check if user insert 1 value
+      if (arr.length < 2) {
+        randomNames.push(arr[0]);
+      } else {
+        for (var i = 0; i < 2; i++) {
+          randomNames.push(
+            arr.splice(Math.floor(Math.random() * arr.length), 1)
+          );
+        }
+      }
+
+      randomNames.forEach((element) => {
+        document.write(element + " ");
+      });
+    </script>
+  </head>
+  <body></body>
+</html>

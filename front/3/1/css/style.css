@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("../images/bg.png");
+  padding: 50px;
+}
+
+div {
+  background-color: #ffbdad;
+  padding: 20px;
+  text-align: center;
+  border: 5px solid #7a8b85;
+  margin-bottom: 10px;
+}
+
+#outerdiv {
+  border: 10px groove #d8ddd9;
+  text-align: center;
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+#firstimg {
+  position: relative;
+}
+#headtext {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+  position: relative;
+}
+
+#links {
+  color: #ff0000;
+  text-decoration: underline;
+}
+#thirdinnerdiv {
+  text-align: left;
+  padding: 50px;
+}
+#sectionheadline {
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: underline;
+}
+#thirdinnerdivbrandname {
+  font-weight: bold;
+  font-size: 18px;
+}
+#thirdinnerdivdetails {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#calculatordetails {
+  font-size: 18px;
+  color: #ff0000;
+  font-style: italic;
+  text-decoration: underline;
+}
+#forthinnerdiv {
+  padding: 0;
+  border: 0;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

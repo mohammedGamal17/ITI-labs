@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../images/bc.png");
+}
+hr {
+  margin: 20px;
+  border-top: 5px dotted #a9a9a9;
+}
+#headline {
+  text-align: center;
+  color: #008000;
+  text-shadow: 1px 1px 4px #ff0000;
+}
+#headlinedetails {
+  text-align: center;
+  color: #008000;
+}
+#headlinedetailsend {
+  color: #8b0000;
+}
+#imgname {
+  color: #ff8c00;
+}
+#imgdetails {
+  color: #008000;
+  font-size: 12px;
+}
+
+#headbottom {
+  text-align: center;
+  color: #008000;
+}
+#theend {
+  text-align: center;
+  color: #ff8c00;
+  font-style: italic;
+}
+
+#horizontal_dotted_line {
+  border-bottom: 1px dotted [color];
+  width: [put your width here]px;
+}

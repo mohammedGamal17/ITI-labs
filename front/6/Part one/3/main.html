@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Task3</title>
+    <script>
+      function isString(name) {
+        return !Number(name) && name.length != 0;
+      }
+      function isPhoneValid(gth) {
+        var isVeiled = false;
+        gth = gth.substr(0, 3) + "-" + gth.substr(3, gth.length);
+        if (isNaN(gth) && gth.length == 12 && isFirstThreeNumberValid(gth)) {
+          alert(gth);
+          isVeiled = true;
+        } else {
+          alert("Wrong");
+          isVeiled = false;
+        }
+        return isVeiled;
+      }
+      function isFirstThreeNumberValid(number) {
+        var firstThreeNumber = number.substr(0, 3);
+        var isvalid = false;
+        if (
+          firstThreeNumber == "010" ||
+          firstThreeNumber == "012" ||
+          firstThreeNumber == "011" ||
+          firstThreeNumber == "015"
+        ) {
+          isvalid = true;
+        }
+        return isvalid;
+      }
+      do {
+        var name = prompt("Enter Your name");
+        if (isString(name)) {
+          do {
+            var phoneNumber = prompt(
+              "Enter Your Phone Number: \n xxx-xxxxxxxx"
+            );
+            isPhoneValid(phoneNumber);
+          } while (!isPhoneValid);
+        } else {
+          alert("Please Insert Valid Name");
+        }
+      } while (!isString(name));
+    </script>
+  </head>
+  <body></body>
+</html>

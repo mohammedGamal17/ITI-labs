@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task 2 With Location</title>
+  </head>
+  <body>
+    <form id="form" action="second.html" onsubmit="return validateForm()">
+      <div>
+        <span> Enter Your Name:</span>
+        <input type="text" name="username" id="username" />
+      </div>
+      <br />
+      <div>
+        <span> Enter Your Age:</span>
+        <input type="number" name="age" id="age" />
+      </div>
+      <br />
+      <div>
+        <span> Select Your Gender:</span>
+        <img src="../img/male.png" />
+        <input type="radio" name="gender" id="male" value="male" />
+        <img src="../img/female.png" />
+        <input type="radio" name="gender" id="female" value="female" />
+      </div>
+      <br />
+      <div>
+        <span> Select Your Favorite Color:</span>
+        <select name="selectionMenu" id="selectionMenu">
+          <option value="red">red</option>
+          <option value="green">green</option>
+          <option value="blue">blue</option>
+        </select>
+      </div>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
