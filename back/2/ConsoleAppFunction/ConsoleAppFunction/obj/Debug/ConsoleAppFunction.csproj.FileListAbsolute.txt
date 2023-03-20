@@ -1,0 +1,8 @@
+D:\ITI\Back\OOP\OOPD02\lab\ConsoleAppFunction\ConsoleAppFunction\bin\Debug\ConsoleAppFunction.exe.config
+D:\ITI\Back\OOP\OOPD02\lab\ConsoleAppFunction\ConsoleAppFunction\bin\Debug\ConsoleAppFunction.exe
+D:\ITI\Back\OOP\OOPD02\lab\ConsoleAppFunction\ConsoleAppFunction\bin\Debug\ConsoleAppFunction.pdb
+D:\ITI\Back\OOP\OOPD02\lab\ConsoleAppFunction\ConsoleAppFunction\obj\Debug\ConsoleAppFunction.csproj.AssemblyReference.cache
+D:\ITI\Back\OOP\OOPD02\lab\ConsoleAppFunction\ConsoleAppFunction\obj\Debug\ConsoleAppFunction.csproj.SuggestedBindingRedirects.cache
+D:\ITI\Back\OOP\OOPD02\lab\ConsoleAppFunction\ConsoleAppFunction\obj\Debug\ConsoleAppFunction.csproj.CoreCompileInputs.cache
+D:\ITI\Back\OOP\OOPD02\lab\ConsoleAppFunction\ConsoleAppFunction\obj\Debug\ConsoleAppFunction.exe
+D:\ITI\Back\OOP\OOPD02\lab\ConsoleAppFunction\ConsoleAppFunction\obj\Debug\ConsoleAppFunction.pdb
