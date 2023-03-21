@@ -1,0 +1,8 @@
+D:\ITI\Back\OOP\OOPD02\lab\ConsoleAppWithArrays\ConsoleAppWithArrays\bin\Debug\ConsoleAppWithArrays.exe.config
+D:\ITI\Back\OOP\OOPD02\lab\ConsoleAppWithArrays\ConsoleAppWithArrays\bin\Debug\ConsoleAppWithArrays.exe
+D:\ITI\Back\OOP\OOPD02\lab\ConsoleAppWithArrays\ConsoleAppWithArrays\bin\Debug\ConsoleAppWithArrays.pdb
+D:\ITI\Back\OOP\OOPD02\lab\ConsoleAppWithArrays\ConsoleAppWithArrays\obj\Debug\ConsoleAppWithArrays.csproj.AssemblyReference.cache
+D:\ITI\Back\OOP\OOPD02\lab\ConsoleAppWithArrays\ConsoleAppWithArrays\obj\Debug\ConsoleAppWithArrays.csproj.SuggestedBindingRedirects.cache
+D:\ITI\Back\OOP\OOPD02\lab\ConsoleAppWithArrays\ConsoleAppWithArrays\obj\Debug\ConsoleAppWithArrays.csproj.CoreCompileInputs.cache
+D:\ITI\Back\OOP\OOPD02\lab\ConsoleAppWithArrays\ConsoleAppWithArrays\obj\Debug\ConsoleAppWithArrays.exe
+D:\ITI\Back\OOP\OOPD02\lab\ConsoleAppWithArrays\ConsoleAppWithArrays\obj\Debug\ConsoleAppWithArrays.pdb
