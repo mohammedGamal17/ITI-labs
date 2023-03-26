@@ -1,0 +1,8 @@
+D:\ITI\Back\OOP\OOPD03\lab\ConsoleAppDealingWithStruct\ConsoleAppDealingWithStruct\obj\Debug\ConsoleAppDealingWithStruct.csproj.AssemblyReference.cache
+D:\ITI\Back\OOP\OOPD03\lab\ConsoleAppDealingWithStruct\ConsoleAppDealingWithStruct\obj\Debug\ConsoleAppDealingWithStruct.csproj.SuggestedBindingRedirects.cache
+D:\ITI\Back\OOP\OOPD03\lab\ConsoleAppDealingWithStruct\ConsoleAppDealingWithStruct\obj\Debug\ConsoleAppDealingWithStruct.csproj.CoreCompileInputs.cache
+D:\ITI\Back\OOP\OOPD03\lab\ConsoleAppDealingWithStruct\ConsoleAppDealingWithStruct\bin\Debug\ConsoleAppDealingWithStruct.exe.config
+D:\ITI\Back\OOP\OOPD03\lab\ConsoleAppDealingWithStruct\ConsoleAppDealingWithStruct\bin\Debug\ConsoleAppDealingWithStruct.exe
+D:\ITI\Back\OOP\OOPD03\lab\ConsoleAppDealingWithStruct\ConsoleAppDealingWithStruct\bin\Debug\ConsoleAppDealingWithStruct.pdb
+D:\ITI\Back\OOP\OOPD03\lab\ConsoleAppDealingWithStruct\ConsoleAppDealingWithStruct\obj\Debug\ConsoleAppDealingWithStruct.exe
+D:\ITI\Back\OOP\OOPD03\lab\ConsoleAppDealingWithStruct\ConsoleAppDealingWithStruct\obj\Debug\ConsoleAppDealingWithStruct.pdb
