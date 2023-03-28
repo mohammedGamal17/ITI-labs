@@ -1,0 +1,8 @@
+D:\ITI\Back\OOP\OOPD06\lab\1\ConsoleAppDealingWithAbstract\ConsoleAppDealingWithAbstract\bin\Debug\ConsoleAppDealingWithAbstract.exe.config
+D:\ITI\Back\OOP\OOPD06\lab\1\ConsoleAppDealingWithAbstract\ConsoleAppDealingWithAbstract\bin\Debug\ConsoleAppDealingWithAbstract.exe
+D:\ITI\Back\OOP\OOPD06\lab\1\ConsoleAppDealingWithAbstract\ConsoleAppDealingWithAbstract\bin\Debug\ConsoleAppDealingWithAbstract.pdb
+D:\ITI\Back\OOP\OOPD06\lab\1\ConsoleAppDealingWithAbstract\ConsoleAppDealingWithAbstract\obj\Debug\ConsoleAppDealingWithAbstract.csproj.AssemblyReference.cache
+D:\ITI\Back\OOP\OOPD06\lab\1\ConsoleAppDealingWithAbstract\ConsoleAppDealingWithAbstract\obj\Debug\ConsoleAppDealingWithAbstract.csproj.SuggestedBindingRedirects.cache
+D:\ITI\Back\OOP\OOPD06\lab\1\ConsoleAppDealingWithAbstract\ConsoleAppDealingWithAbstract\obj\Debug\ConsoleAppDealingWithAbstract.csproj.CoreCompileInputs.cache
+D:\ITI\Back\OOP\OOPD06\lab\1\ConsoleAppDealingWithAbstract\ConsoleAppDealingWithAbstract\obj\Debug\ConsoleAppDealingWithAbstract.exe
+D:\ITI\Back\OOP\OOPD06\lab\1\ConsoleAppDealingWithAbstract\ConsoleAppDealingWithAbstract\obj\Debug\ConsoleAppDealingWithAbstract.pdb
