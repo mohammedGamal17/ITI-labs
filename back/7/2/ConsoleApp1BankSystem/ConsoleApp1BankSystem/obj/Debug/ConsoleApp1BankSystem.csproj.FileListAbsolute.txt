@@ -1,0 +1,8 @@
+D:\ITI\Back\OOP\OOPD07\lab\2\ConsoleApp1BankSystem\ConsoleApp1BankSystem\bin\Debug\ConsoleApp1BankSystem.exe.config
+D:\ITI\Back\OOP\OOPD07\lab\2\ConsoleApp1BankSystem\ConsoleApp1BankSystem\bin\Debug\ConsoleApp1BankSystem.exe
+D:\ITI\Back\OOP\OOPD07\lab\2\ConsoleApp1BankSystem\ConsoleApp1BankSystem\bin\Debug\ConsoleApp1BankSystem.pdb
+D:\ITI\Back\OOP\OOPD07\lab\2\ConsoleApp1BankSystem\ConsoleApp1BankSystem\obj\Debug\ConsoleApp1BankSystem.csproj.AssemblyReference.cache
+D:\ITI\Back\OOP\OOPD07\lab\2\ConsoleApp1BankSystem\ConsoleApp1BankSystem\obj\Debug\ConsoleApp1BankSystem.csproj.SuggestedBindingRedirects.cache
+D:\ITI\Back\OOP\OOPD07\lab\2\ConsoleApp1BankSystem\ConsoleApp1BankSystem\obj\Debug\ConsoleApp1BankSystem.csproj.CoreCompileInputs.cache
+D:\ITI\Back\OOP\OOPD07\lab\2\ConsoleApp1BankSystem\ConsoleApp1BankSystem\obj\Debug\ConsoleApp1BankSystem.exe
+D:\ITI\Back\OOP\OOPD07\lab\2\ConsoleApp1BankSystem\ConsoleApp1BankSystem\obj\Debug\ConsoleApp1BankSystem.pdb

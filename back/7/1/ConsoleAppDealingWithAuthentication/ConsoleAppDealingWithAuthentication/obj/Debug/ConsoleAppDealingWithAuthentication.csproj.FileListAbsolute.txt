@@ -1,0 +1,8 @@
+D:\ITI\Back\OOP\OOPD07\lab\1\ConsoleAppDealingWithAuthentication\ConsoleAppDealingWithAuthentication\bin\Debug\ConsoleAppDealingWithAuthentication.exe.config
+D:\ITI\Back\OOP\OOPD07\lab\1\ConsoleAppDealingWithAuthentication\ConsoleAppDealingWithAuthentication\bin\Debug\ConsoleAppDealingWithAuthentication.exe
+D:\ITI\Back\OOP\OOPD07\lab\1\ConsoleAppDealingWithAuthentication\ConsoleAppDealingWithAuthentication\bin\Debug\ConsoleAppDealingWithAuthentication.pdb
+D:\ITI\Back\OOP\OOPD07\lab\1\ConsoleAppDealingWithAuthentication\ConsoleAppDealingWithAuthentication\obj\Debug\ConsoleAppDealingWithAuthentication.csproj.AssemblyReference.cache
+D:\ITI\Back\OOP\OOPD07\lab\1\ConsoleAppDealingWithAuthentication\ConsoleAppDealingWithAuthentication\obj\Debug\ConsoleAppDealingWithAuthentication.csproj.SuggestedBindingRedirects.cache
+D:\ITI\Back\OOP\OOPD07\lab\1\ConsoleAppDealingWithAuthentication\ConsoleAppDealingWithAuthentication\obj\Debug\ConsoleAppDealingWithAuthentication.csproj.CoreCompileInputs.cache
+D:\ITI\Back\OOP\OOPD07\lab\1\ConsoleAppDealingWithAuthentication\ConsoleAppDealingWithAuthentication\obj\Debug\ConsoleAppDealingWithAuthentication.exe
+D:\ITI\Back\OOP\OOPD07\lab\1\ConsoleAppDealingWithAuthentication\ConsoleAppDealingWithAuthentication\obj\Debug\ConsoleAppDealingWithAuthentication.pdb
