@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let arr = [1, 9, 3, 4, 2, 6, 7, 8, 5, 70];
+
+      // Sorting
+      let ascending = arr.sort((a, b) => a - b);
+      let descending = arr.sort((a, b) => b - a);
+      console.log(ascending);
+      console.log(descending);
+      // Filter
+      let filter = arr.filter((num) => num > 50);
+      console.log(filter);
+      // min and max
+      let max = arr.reduce((a, b) => Math.max(a, b));
+      console.log(max);
+      let min = arr.reduce((a, b) => Math.min(a, b));
+      console.log(min);
+    </script>
+  </body>
+</html>

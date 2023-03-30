@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Task 3</title>
+  </head>
+  <body>
+    <script>
+      let propertyOne = prompt("Enter name of 1 property ");
+      let valueOne = prompt("Enter value");
+      let propertyTwo = prompt("Enter name of 2 property ");
+      let valueTwo = prompt("Enter value");
+      let propertyThree = prompt("Enter name of 3 property ");
+      let valueThree = prompt("Enter value");
+
+      const body = {
+        [propertyOne]: valueOne,
+        [propertyTwo]: valueTwo,
+        [propertyThree]: valueThree,
+
+        print() {
+          return `${propertyOne}:${valueOne} \n${propertyTwo}:${valueTwo} \n${propertyThree}:${valueThree}`;
+        },
+      };
+
+      document.body.innerText = body.print();
+    </script>
+  </body>
+</html>

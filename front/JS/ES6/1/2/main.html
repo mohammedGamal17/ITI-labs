@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Task 2</title>
+  </head>
+  <body>
+    <script>
+      function doOperators(op, ..._arr) {
+        return eval(_arr.join(op));
+      }
+      let arr = [1, 2, 3, 4, 5];
+      let result = `result of sum operation for `;
+      arr.forEach((element) => {
+        result += element + ` `;
+      });
+
+      console.log(`${result}is ${doOperators("+", ...arr)}`); // spread
+    </script>
+  </body>
+</html>
