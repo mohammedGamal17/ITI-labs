@@ -29,32 +29,31 @@ namespace ConsoleAppDealingWithAbstractCompanySystem
 
             #region PR
             Employee pr = new PREmployee(1, "PR1", 7000, client);
-            Employee pr2 = new PREmployee(1, "PR1", 7000, LongestClint);
+            Employee pr2 = new PREmployee(1, "PR2", 7000, LongestClint);
             #endregion
 
-            Employee[] employees = new Employee[] { hr, pr };
+            Employee[] employees = new Employee[] { hr, pr2, hr2 };
 
-            GetEmployeeWithLongestClientsArray(employees);
+            Console.WriteLine(GetEmployeeWithLongestClientsArray(employees).Name);
             Console.ReadLine();
         }
 
         public static Employee GetEmployeeWithLongestClientsArray(Employee[] employee)
         {
 
-            for (int i = 0; i < employee.Length - 1; i++)
+            Employee emp = null;
+            int checkForm = 0;
+
+            for (int i = 0; i < employee.Length; i++)
             {
-                for (int j = 1; j < employee.Length; j++)
+                if (employee[i].Client.Length > checkForm)
                 {
-                    if (employee[i].Client.Length < employee[j].Client.Length)
-                    {
-                        //Console.WriteLine(employee[i].Name);
-                        //Console.WriteLine(employee[j].Client.Length);
-                        return employee[j];
-                    }
+                    checkForm = employee[i].Client.Length;
+                    emp = employee[i];
                 }
 
             }
-            return employee[0];
+            return emp;
         }
 
 
