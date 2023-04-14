@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #000000;
+  color: #ffffff;
+}
+:root {
+  --red: #ff0000;
+  --white: #ffffff;
+  --transition: all 1.5s ease-in-out;
+  --rem1: --1rem;
+}
+.parent {
+  flex-direction: row;
+  background-color: #434343;
+  box-shadow: -0px 0px 20px 5px #ffffffcc;
+  border-radius: var(--1rem);
+  padding: var(--1rem);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: var(--transition);
+}
+.parent:hover {
+  background-color: #bdbdbd;
+  opacity: 1;
+  transform: rotate(-10deg);
+  transition: var(--transition);
+}
+.parent:active {
+  transform: scale(0.6);
+}
+
+.text {
+  border: 5px solid #000000;
+  box-shadow: 5px 5px 10px 2px #b9b7b7cc;
+  text-align: center;
+  border-radius: var(--1rem);
+  padding: 5px;
+  column-count: 3;
+  column-rule: 2px solid var(--blue);
+  column-gap: 100px;
+}
+
+#image-container {
+  flex-direction: row;
+  margin: var(rem1);
+  padding: var(rem1);
+  column-gap: 10px;
+  display: flexbox;
+}
+
+mark {
+  margin: 0;
+  padding: 0;
+  background: var(--red);
+  transition: var(--transition);
+}
+mark:hover {
+  background: linear-gradient(265.27deg, #00ffe0 20.55%, #00f27e 94.17%);
+  transition: var(--transition);
+}
+mark:active {
+  background: linear-gradient(265.27deg, #2200ff 20.55%, #ff0000 94.17%);
+  transition: var(--transition);
+}
+
+img {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: var(--rem1);
+  border: 3px solid var(--white);
+  background: linear-gradient(265.27deg, #fdfdfd 20.55%, var(--white) 94.17%);
+}
+img:hover {
+  transform: scale(1.2);
+  box-shadow: -0px 0px 30px 2px #ffffffcc;
+  transition: var(--transition);
+}
+img:active {
+  transform: scale(3);
+  transition: var(--transition);
+}
+@media (orientation: landscape) {
+  .text {
+    resize: both;
+    overflow-x: scroll;
+  }
+
+  #image-container {
+    resize: both;
+    overflow-y: scroll;
+    border-radius: var(--rem1);
+  }
+  hr {
+    display: none;
+  }
+}
+
+/*@media screen and (min-width:800px) {*/
+@media screen and (orientation: portrait) {
+  .parent {
+    flex-direction: column;
+  }
+  img {
+    transform: rotate(-10deg);
+    transition: var(--transition);
+  }
+  hr {
+    margin: var(--rem1);
+    border: 2px dotted var(--white);
+  }
+}

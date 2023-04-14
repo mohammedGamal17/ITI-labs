@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background: #000000;
+  --red: #ff0000;
+  --green: #008000;
+  --blue: #0000ff;
+  --yellow: #ffff00;
+}
+#controller {
+  text-align: center;
+}
+#controller > button {
+  margin: 1rem;
+  text-align: center;
+  width: 60px;
+  height: 40px;
+}
+
+#controller > button:hover {
+  margin: 1rem;
+  text-align: center;
+  width: 70px;
+  height: 50px;
+  background-color: darkgray;
+  color: white;
+}
+#animation {
+  margin: 10px auto;
+  width: 200px;
+  height: 100px;
+  background-color: var(--red);
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-play-state: paused;
+}
+
+@keyframes example {
+  0% {
+    background-color: var(--red);
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: var(--yellow);
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: var(--blue);
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: var(--green);
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: var(--red);
+    left: 0px;
+    top: 0px;
+  }
+}
