@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #01001b;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #03004e;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.draggable {
+  border-radius: 1rem;
+  width: 100px;
+  height: 100px;
+  margin: 1rem;
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out;
+}
+
+.draggable:hover {
+  cursor: pointer;
+  transform: rotate(360deg) scale(1.5);
+
+  transition: 1s ease-in-out;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.4/css/all.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <title>Task 1</title>
+  </head>
+  <body>
+    <div id="container">
+      <video id="myVideo">
+        <source src="assets/video/NeuralNetworks.mp4" type="video/mp4" />
+        Error Message
+        <track
+          label="English"
+          kind="subtitles"
+          srclang="en"
+          src="assets/video/Neural Networks.en.vtt"
+          default
+        />
+      </video>
+    </div>
+    <div id="wrapper">
+      <i id="playOrPause" class="material-icons">play_arrow</i>
+      <div id="volumeControl">
+        <i id="volumeToggle" class="material-icons">volume_up</i>
+        <input
+          type="range"
+          id="volumeBar"
+          min="0"
+          max="1"
+          step="0.1"
+          value="0.5"
+        />
+      </div>
+
+      <i id="fullScreen" class="material-icons">fullscreen</i>
+    </div>
+    <script src="script/script.js"></script>
+  </body>
+</html>
