@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primaryColor: #11004f;
+  --darkPrimary: #090026;
+
+  --white: #ffffff;
+  --second: #3604ec;
+  --third: #8766ff;
+  --background: #0a012c;
+  --shadow: 1px 1px 10px 1px var(--second);
+  --text-shadow: 1px 1px 10px var(--second);
+}
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: var(--background);
+  color: var(--white);
+  text-shadow: var(--text-shadow);
+}
+
+.main-title::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  background-color: var(--second);
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.head-title::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  position: absolute;
+  background-color: var(--second);
+  bottom: -20px;
+  left: -50%;
+  transform: translateX(-50%);
+}
+/* Start Nav Bar  */
+
+.navbar {
+  background-color: var(--primaryColor);
+  color: var(--white);
+  box-shadow: var(--shadow);
+}
+
+.navbar img {
+  width: 3rem;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: var(--second);
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus {
+  color: var(--white);
+}
+
+.navbar .navbar-toggler {
+  /* menu icon */
+  color: var(--white);
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .search {
+  border-left: 0.1rem solid var(--white);
+  color: var(--second);
+}
+.navbar .search:hover {
+  color: var(--white);
+}
+
+.navbar .btn-primary {
+  background-color: var(--primaryColor);
+  color: var(--white);
+  border: 0.1rem solid var(--second);
+}
+/* End Nav Bar  */
+
+/* Start landing */
+.landing {
+  background-color: var(--background);
+  min-height: calc(100vh - 72px);
+}
+/* End landing */
+
+/* Start feature */
+.feature {
+  background-color: var(--primaryColor);
+}
+
+.feature .icon-holder {
+  height: 200px;
+}
+.feature .icon-holder svg {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.feature .icon-holder .number {
+  font-size: 12rem;
+  color: var(--second);
+}
+.feature .pgph {
+  color: var(--third);
+}
+/* End feature */
+
+/* Start Work Experience */
+.work-experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.work-experience ul .active {
+  background-color: var(--second);
+  cursor: pointer;
+}
+
+.work-experience ul > li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.work-experience ul li:not(.active):hover {
+  color: var(--second);
+}
+.work-experience .row {
+  margin: 1rem;
+}
+.work-experience .row .box {
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--second);
+  overflow: hidden;
+  position: relative;
+}
+
+/* .work-experience .row .box .active {
+  background-color: var(--second);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+} */
+
+.work-experience .row .box::before {
+  content: attr(data-work);
+  position: absolute;
+  background-color: #0c0135b7;
+  width: calc(100%);
+  height: calc(100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  transition: 0.5s;
+
+  transform: translateX(-100%);
+}
+.work-experience .row .box:hover::before {
+  transition: 0.7s;
+  transform: translateX(0%);
+}
+/* End Work Experience */
+
+/* Start About us */
+.about-us {
+  background-color: var(--primaryColor);
+  padding-top: 1rem;
+}
+.about-us .row .btn {
+  color: var(--primaryColor);
+}
+.about-us .row .btn:hover {
+  color: var(--white);
+}
+/* End About us */
+
+/* Start Our Team */
+
+.meet-our-team .row .box {
+  background-color: var(--primaryColor);
+  border-radius: 1rem;
+}
+
+.meet-our-team .row .box h5 {
+  background-color: var(--background);
+  padding: 0.4rem 0rem;
+  font-weight: bold;
+}
+
+.meet-our-team .row .box blockquote {
+  padding: 1rem;
+}
+/* End Our Team */
+
+/* Start Footer */
+footer {
+  background-color: var(--primaryColor);
+}
+footer .row a {
+  display: block;
+  text-decoration: none;
+}
+footer .row a:hover {
+  color: var(--white);
+}
+
+footer .row .mail {
+  background-color: var(--background);
+  padding: 0.5rem;
+  color: var(--white);
+  border-radius: 1rem;
+}
+
+footer .row .mail:hover {
+  background-color: var(--background);
+  padding: 0.5rem;
+  color: var(--second);
+  border-radius: 1rem;
+}
+
+footer .row .contact-us a:not(.mail) {
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .row .contact-us a:not(.mail):hover {
+  transform: scale(1.4);
+}
+/* End Footer */
