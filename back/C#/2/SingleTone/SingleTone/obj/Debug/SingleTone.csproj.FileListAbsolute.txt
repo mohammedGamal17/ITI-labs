@@ -1,0 +1,8 @@
+D:\projects\Design Patterns\SingleTone\SingleTone\bin\Debug\SingleTone.exe.config
+D:\projects\Design Patterns\SingleTone\SingleTone\bin\Debug\SingleTone.exe
+D:\projects\Design Patterns\SingleTone\SingleTone\bin\Debug\SingleTone.pdb
+D:\projects\Design Patterns\SingleTone\SingleTone\obj\Debug\SingleTone.csproj.AssemblyReference.cache
+D:\projects\Design Patterns\SingleTone\SingleTone\obj\Debug\SingleTone.csproj.SuggestedBindingRedirects.cache
+D:\projects\Design Patterns\SingleTone\SingleTone\obj\Debug\SingleTone.csproj.CoreCompileInputs.cache
+D:\projects\Design Patterns\SingleTone\SingleTone\obj\Debug\SingleTone.exe
+D:\projects\Design Patterns\SingleTone\SingleTone\obj\Debug\SingleTone.pdb

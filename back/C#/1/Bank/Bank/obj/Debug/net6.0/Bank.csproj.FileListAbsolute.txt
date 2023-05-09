@@ -1,0 +1,15 @@
+D:\ITI\Back\C#\D-01\Lab\Bank\Bank\bin\Debug\net6.0\Bank.exe
+D:\ITI\Back\C#\D-01\Lab\Bank\Bank\bin\Debug\net6.0\Bank.deps.json
+D:\ITI\Back\C#\D-01\Lab\Bank\Bank\bin\Debug\net6.0\Bank.runtimeconfig.json
+D:\ITI\Back\C#\D-01\Lab\Bank\Bank\bin\Debug\net6.0\Bank.dll
+D:\ITI\Back\C#\D-01\Lab\Bank\Bank\bin\Debug\net6.0\Bank.pdb
+D:\ITI\Back\C#\D-01\Lab\Bank\Bank\obj\Debug\net6.0\Bank.csproj.AssemblyReference.cache
+D:\ITI\Back\C#\D-01\Lab\Bank\Bank\obj\Debug\net6.0\Bank.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\Back\C#\D-01\Lab\Bank\Bank\obj\Debug\net6.0\Bank.AssemblyInfoInputs.cache
+D:\ITI\Back\C#\D-01\Lab\Bank\Bank\obj\Debug\net6.0\Bank.AssemblyInfo.cs
+D:\ITI\Back\C#\D-01\Lab\Bank\Bank\obj\Debug\net6.0\Bank.csproj.CoreCompileInputs.cache
+D:\ITI\Back\C#\D-01\Lab\Bank\Bank\obj\Debug\net6.0\Bank.dll
+D:\ITI\Back\C#\D-01\Lab\Bank\Bank\obj\Debug\net6.0\refint\Bank.dll
+D:\ITI\Back\C#\D-01\Lab\Bank\Bank\obj\Debug\net6.0\Bank.pdb
+D:\ITI\Back\C#\D-01\Lab\Bank\Bank\obj\Debug\net6.0\Bank.genruntimeconfig.cache
+D:\ITI\Back\C#\D-01\Lab\Bank\Bank\obj\Debug\net6.0\ref\Bank.dll

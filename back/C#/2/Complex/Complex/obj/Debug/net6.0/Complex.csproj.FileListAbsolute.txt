@@ -1,0 +1,15 @@
+D:\ITI\Back\C#\D-02\Lab\Complex\Complex\bin\Debug\net6.0\Complex.exe
+D:\ITI\Back\C#\D-02\Lab\Complex\Complex\bin\Debug\net6.0\Complex.deps.json
+D:\ITI\Back\C#\D-02\Lab\Complex\Complex\bin\Debug\net6.0\Complex.runtimeconfig.json
+D:\ITI\Back\C#\D-02\Lab\Complex\Complex\bin\Debug\net6.0\Complex.dll
+D:\ITI\Back\C#\D-02\Lab\Complex\Complex\bin\Debug\net6.0\Complex.pdb
+D:\ITI\Back\C#\D-02\Lab\Complex\Complex\obj\Debug\net6.0\Complex.csproj.AssemblyReference.cache
+D:\ITI\Back\C#\D-02\Lab\Complex\Complex\obj\Debug\net6.0\Complex.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\Back\C#\D-02\Lab\Complex\Complex\obj\Debug\net6.0\Complex.AssemblyInfoInputs.cache
+D:\ITI\Back\C#\D-02\Lab\Complex\Complex\obj\Debug\net6.0\Complex.AssemblyInfo.cs
+D:\ITI\Back\C#\D-02\Lab\Complex\Complex\obj\Debug\net6.0\Complex.csproj.CoreCompileInputs.cache
+D:\ITI\Back\C#\D-02\Lab\Complex\Complex\obj\Debug\net6.0\Complex.dll
+D:\ITI\Back\C#\D-02\Lab\Complex\Complex\obj\Debug\net6.0\refint\Complex.dll
+D:\ITI\Back\C#\D-02\Lab\Complex\Complex\obj\Debug\net6.0\Complex.pdb
+D:\ITI\Back\C#\D-02\Lab\Complex\Complex\obj\Debug\net6.0\Complex.genruntimeconfig.cache
+D:\ITI\Back\C#\D-02\Lab\Complex\Complex\obj\Debug\net6.0\ref\Complex.dll

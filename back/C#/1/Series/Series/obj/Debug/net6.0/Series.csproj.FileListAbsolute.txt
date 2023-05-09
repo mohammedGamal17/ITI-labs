@@ -1,0 +1,15 @@
+D:\ITI\Back\C#\D-01\Lab\Series\Series\bin\Debug\net6.0\Series.exe
+D:\ITI\Back\C#\D-01\Lab\Series\Series\bin\Debug\net6.0\Series.deps.json
+D:\ITI\Back\C#\D-01\Lab\Series\Series\bin\Debug\net6.0\Series.runtimeconfig.json
+D:\ITI\Back\C#\D-01\Lab\Series\Series\bin\Debug\net6.0\Series.dll
+D:\ITI\Back\C#\D-01\Lab\Series\Series\bin\Debug\net6.0\Series.pdb
+D:\ITI\Back\C#\D-01\Lab\Series\Series\obj\Debug\net6.0\Series.csproj.AssemblyReference.cache
+D:\ITI\Back\C#\D-01\Lab\Series\Series\obj\Debug\net6.0\Series.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\Back\C#\D-01\Lab\Series\Series\obj\Debug\net6.0\Series.AssemblyInfoInputs.cache
+D:\ITI\Back\C#\D-01\Lab\Series\Series\obj\Debug\net6.0\Series.AssemblyInfo.cs
+D:\ITI\Back\C#\D-01\Lab\Series\Series\obj\Debug\net6.0\Series.csproj.CoreCompileInputs.cache
+D:\ITI\Back\C#\D-01\Lab\Series\Series\obj\Debug\net6.0\Series.dll
+D:\ITI\Back\C#\D-01\Lab\Series\Series\obj\Debug\net6.0\refint\Series.dll
+D:\ITI\Back\C#\D-01\Lab\Series\Series\obj\Debug\net6.0\Series.pdb
+D:\ITI\Back\C#\D-01\Lab\Series\Series\obj\Debug\net6.0\Series.genruntimeconfig.cache
+D:\ITI\Back\C#\D-01\Lab\Series\Series\obj\Debug\net6.0\ref\Series.dll

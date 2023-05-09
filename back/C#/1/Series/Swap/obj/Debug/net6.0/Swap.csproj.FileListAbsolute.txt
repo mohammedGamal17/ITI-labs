@@ -1,0 +1,15 @@
+D:\ITI\Back\C#\D-01\Lab\Series\Swap\bin\Debug\net6.0\Swap.exe
+D:\ITI\Back\C#\D-01\Lab\Series\Swap\bin\Debug\net6.0\Swap.deps.json
+D:\ITI\Back\C#\D-01\Lab\Series\Swap\bin\Debug\net6.0\Swap.runtimeconfig.json
+D:\ITI\Back\C#\D-01\Lab\Series\Swap\bin\Debug\net6.0\Swap.dll
+D:\ITI\Back\C#\D-01\Lab\Series\Swap\bin\Debug\net6.0\Swap.pdb
+D:\ITI\Back\C#\D-01\Lab\Series\Swap\obj\Debug\net6.0\Swap.csproj.AssemblyReference.cache
+D:\ITI\Back\C#\D-01\Lab\Series\Swap\obj\Debug\net6.0\Swap.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\Back\C#\D-01\Lab\Series\Swap\obj\Debug\net6.0\Swap.AssemblyInfoInputs.cache
+D:\ITI\Back\C#\D-01\Lab\Series\Swap\obj\Debug\net6.0\Swap.AssemblyInfo.cs
+D:\ITI\Back\C#\D-01\Lab\Series\Swap\obj\Debug\net6.0\Swap.csproj.CoreCompileInputs.cache
+D:\ITI\Back\C#\D-01\Lab\Series\Swap\obj\Debug\net6.0\Swap.dll
+D:\ITI\Back\C#\D-01\Lab\Series\Swap\obj\Debug\net6.0\refint\Swap.dll
+D:\ITI\Back\C#\D-01\Lab\Series\Swap\obj\Debug\net6.0\Swap.pdb
+D:\ITI\Back\C#\D-01\Lab\Series\Swap\obj\Debug\net6.0\Swap.genruntimeconfig.cache
+D:\ITI\Back\C#\D-01\Lab\Series\Swap\obj\Debug\net6.0\ref\Swap.dll

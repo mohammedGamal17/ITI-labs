@@ -1,0 +1,5 @@
+1- Bank account class implement icomperable interface
+2- Swap function with int and double and double
+3- Oddseries evenseries fibseries implement iseries and runengine class
+4- Search for Iclonable and I disposable interfaces
+5- Search what happen when implement from to Interfaces have to same function 
