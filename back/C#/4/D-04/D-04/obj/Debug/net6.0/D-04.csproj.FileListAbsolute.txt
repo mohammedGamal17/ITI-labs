@@ -1,0 +1,15 @@
+D:\ITI\Back\C#\D-04\Lab\D-04\D-04\bin\Debug\net6.0\D-04.exe
+D:\ITI\Back\C#\D-04\Lab\D-04\D-04\bin\Debug\net6.0\D-04.deps.json
+D:\ITI\Back\C#\D-04\Lab\D-04\D-04\bin\Debug\net6.0\D-04.runtimeconfig.json
+D:\ITI\Back\C#\D-04\Lab\D-04\D-04\bin\Debug\net6.0\D-04.dll
+D:\ITI\Back\C#\D-04\Lab\D-04\D-04\bin\Debug\net6.0\D-04.pdb
+D:\ITI\Back\C#\D-04\Lab\D-04\D-04\obj\Debug\net6.0\D-04.csproj.AssemblyReference.cache
+D:\ITI\Back\C#\D-04\Lab\D-04\D-04\obj\Debug\net6.0\D-04.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\Back\C#\D-04\Lab\D-04\D-04\obj\Debug\net6.0\D-04.AssemblyInfoInputs.cache
+D:\ITI\Back\C#\D-04\Lab\D-04\D-04\obj\Debug\net6.0\D-04.AssemblyInfo.cs
+D:\ITI\Back\C#\D-04\Lab\D-04\D-04\obj\Debug\net6.0\D-04.csproj.CoreCompileInputs.cache
+D:\ITI\Back\C#\D-04\Lab\D-04\D-04\obj\Debug\net6.0\D-04.dll
+D:\ITI\Back\C#\D-04\Lab\D-04\D-04\obj\Debug\net6.0\refint\D-04.dll
+D:\ITI\Back\C#\D-04\Lab\D-04\D-04\obj\Debug\net6.0\D-04.pdb
+D:\ITI\Back\C#\D-04\Lab\D-04\D-04\obj\Debug\net6.0\D-04.genruntimeconfig.cache
+D:\ITI\Back\C#\D-04\Lab\D-04\D-04\obj\Debug\net6.0\ref\D-04.dll

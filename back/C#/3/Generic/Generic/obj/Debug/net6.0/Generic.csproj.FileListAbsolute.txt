@@ -1,0 +1,15 @@
+D:\ITI\Back\C#\D-03\Lab\Generic\Generic\obj\Debug\net6.0\Generic.csproj.AssemblyReference.cache
+D:\ITI\Back\C#\D-03\Lab\Generic\Generic\obj\Debug\net6.0\Generic.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\Back\C#\D-03\Lab\Generic\Generic\obj\Debug\net6.0\Generic.AssemblyInfoInputs.cache
+D:\ITI\Back\C#\D-03\Lab\Generic\Generic\obj\Debug\net6.0\Generic.AssemblyInfo.cs
+D:\ITI\Back\C#\D-03\Lab\Generic\Generic\obj\Debug\net6.0\Generic.csproj.CoreCompileInputs.cache
+D:\ITI\Back\C#\D-03\Lab\Generic\Generic\bin\Debug\net6.0\Generic.exe
+D:\ITI\Back\C#\D-03\Lab\Generic\Generic\bin\Debug\net6.0\Generic.deps.json
+D:\ITI\Back\C#\D-03\Lab\Generic\Generic\bin\Debug\net6.0\Generic.runtimeconfig.json
+D:\ITI\Back\C#\D-03\Lab\Generic\Generic\bin\Debug\net6.0\Generic.dll
+D:\ITI\Back\C#\D-03\Lab\Generic\Generic\bin\Debug\net6.0\Generic.pdb
+D:\ITI\Back\C#\D-03\Lab\Generic\Generic\obj\Debug\net6.0\Generic.dll
+D:\ITI\Back\C#\D-03\Lab\Generic\Generic\obj\Debug\net6.0\refint\Generic.dll
+D:\ITI\Back\C#\D-03\Lab\Generic\Generic\obj\Debug\net6.0\Generic.pdb
+D:\ITI\Back\C#\D-03\Lab\Generic\Generic\obj\Debug\net6.0\Generic.genruntimeconfig.cache
+D:\ITI\Back\C#\D-03\Lab\Generic\Generic\obj\Debug\net6.0\ref\Generic.dll
