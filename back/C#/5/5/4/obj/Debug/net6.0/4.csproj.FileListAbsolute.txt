@@ -1,0 +1,15 @@
+D:\ITI\Back\C#\D-04\Lab\4\4\bin\Debug\net6.0\4.exe
+D:\ITI\Back\C#\D-04\Lab\4\4\bin\Debug\net6.0\4.deps.json
+D:\ITI\Back\C#\D-04\Lab\4\4\bin\Debug\net6.0\4.runtimeconfig.json
+D:\ITI\Back\C#\D-04\Lab\4\4\bin\Debug\net6.0\4.dll
+D:\ITI\Back\C#\D-04\Lab\4\4\bin\Debug\net6.0\4.pdb
+D:\ITI\Back\C#\D-04\Lab\4\4\obj\Debug\net6.0\4.csproj.AssemblyReference.cache
+D:\ITI\Back\C#\D-04\Lab\4\4\obj\Debug\net6.0\4.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\Back\C#\D-04\Lab\4\4\obj\Debug\net6.0\4.AssemblyInfoInputs.cache
+D:\ITI\Back\C#\D-04\Lab\4\4\obj\Debug\net6.0\4.AssemblyInfo.cs
+D:\ITI\Back\C#\D-04\Lab\4\4\obj\Debug\net6.0\4.csproj.CoreCompileInputs.cache
+D:\ITI\Back\C#\D-04\Lab\4\4\obj\Debug\net6.0\4.dll
+D:\ITI\Back\C#\D-04\Lab\4\4\obj\Debug\net6.0\refint\4.dll
+D:\ITI\Back\C#\D-04\Lab\4\4\obj\Debug\net6.0\4.pdb
+D:\ITI\Back\C#\D-04\Lab\4\4\obj\Debug\net6.0\4.genruntimeconfig.cache
+D:\ITI\Back\C#\D-04\Lab\4\4\obj\Debug\net6.0\ref\4.dll
