@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITI\\Back\\C#\\D-06\\Lab\\School\\School\\School.csproj": {}
+    "D:\\ITI\\labs\\back\\C#\\6\\School\\School\\School.csproj": {}
   },
   "projects": {
-    "D:\\ITI\\Back\\C#\\D-06\\Lab\\School\\School\\School.csproj": {
+    "D:\\ITI\\labs\\back\\C#\\6\\School\\School\\School.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\Back\\C#\\D-06\\Lab\\School\\School\\School.csproj",
+        "projectUniqueName": "D:\\ITI\\labs\\back\\C#\\6\\School\\School\\School.csproj",
         "projectName": "School",
-        "projectPath": "D:\\ITI\\Back\\C#\\D-06\\Lab\\School\\School\\School.csproj",
+        "projectPath": "D:\\ITI\\labs\\back\\C#\\6\\School\\School\\School.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\Back\\C#\\D-06\\Lab\\School\\School\\obj\\",
+        "outputPath": "D:\\ITI\\labs\\back\\C#\\6\\School\\School\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
