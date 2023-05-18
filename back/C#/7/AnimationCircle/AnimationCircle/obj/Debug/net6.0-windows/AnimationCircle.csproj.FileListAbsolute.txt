@@ -1,0 +1,17 @@
+D:\ITI\Back\C#\D-07\Lab\AnimationCircle\AnimationCircle\bin\Debug\net6.0-windows\AnimationCircle.exe
+D:\ITI\Back\C#\D-07\Lab\AnimationCircle\AnimationCircle\bin\Debug\net6.0-windows\AnimationCircle.deps.json
+D:\ITI\Back\C#\D-07\Lab\AnimationCircle\AnimationCircle\bin\Debug\net6.0-windows\AnimationCircle.runtimeconfig.json
+D:\ITI\Back\C#\D-07\Lab\AnimationCircle\AnimationCircle\bin\Debug\net6.0-windows\AnimationCircle.dll
+D:\ITI\Back\C#\D-07\Lab\AnimationCircle\AnimationCircle\bin\Debug\net6.0-windows\AnimationCircle.pdb
+D:\ITI\Back\C#\D-07\Lab\AnimationCircle\AnimationCircle\obj\Debug\net6.0-windows\AnimationCircle.csproj.AssemblyReference.cache
+D:\ITI\Back\C#\D-07\Lab\AnimationCircle\AnimationCircle\obj\Debug\net6.0-windows\AnimationCircle.csproj.GenerateResource.cache
+D:\ITI\Back\C#\D-07\Lab\AnimationCircle\AnimationCircle\obj\Debug\net6.0-windows\AnimationCircle.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\Back\C#\D-07\Lab\AnimationCircle\AnimationCircle\obj\Debug\net6.0-windows\AnimationCircle.AssemblyInfoInputs.cache
+D:\ITI\Back\C#\D-07\Lab\AnimationCircle\AnimationCircle\obj\Debug\net6.0-windows\AnimationCircle.AssemblyInfo.cs
+D:\ITI\Back\C#\D-07\Lab\AnimationCircle\AnimationCircle\obj\Debug\net6.0-windows\AnimationCircle.csproj.CoreCompileInputs.cache
+D:\ITI\Back\C#\D-07\Lab\AnimationCircle\AnimationCircle\obj\Debug\net6.0-windows\AnimationCircle.dll
+D:\ITI\Back\C#\D-07\Lab\AnimationCircle\AnimationCircle\obj\Debug\net6.0-windows\refint\AnimationCircle.dll
+D:\ITI\Back\C#\D-07\Lab\AnimationCircle\AnimationCircle\obj\Debug\net6.0-windows\AnimationCircle.pdb
+D:\ITI\Back\C#\D-07\Lab\AnimationCircle\AnimationCircle\obj\Debug\net6.0-windows\AnimationCircle.genruntimeconfig.cache
+D:\ITI\Back\C#\D-07\Lab\AnimationCircle\AnimationCircle\obj\Debug\net6.0-windows\ref\AnimationCircle.dll
+D:\ITI\Back\C#\D-07\Lab\AnimationCircle\AnimationCircle\obj\Debug\net6.0-windows\AnimationCircle.Form2.resources
