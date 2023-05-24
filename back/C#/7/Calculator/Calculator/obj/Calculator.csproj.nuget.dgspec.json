@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITI\\Back\\C#\\D-07\\Lab\\Calculator\\Calculator\\Calculator.csproj": {}
+    "D:\\ITI\\labs\\back\\C#\\7\\Calculator\\Calculator\\Calculator.csproj": {}
   },
   "projects": {
-    "D:\\ITI\\Back\\C#\\D-07\\Lab\\Calculator\\Calculator\\Calculator.csproj": {
+    "D:\\ITI\\labs\\back\\C#\\7\\Calculator\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\Back\\C#\\D-07\\Lab\\Calculator\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "D:\\ITI\\labs\\back\\C#\\7\\Calculator\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "D:\\ITI\\Back\\C#\\D-07\\Lab\\Calculator\\Calculator\\Calculator.csproj",
+        "projectPath": "D:\\ITI\\labs\\back\\C#\\7\\Calculator\\Calculator\\Calculator.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\Back\\C#\\D-07\\Lab\\Calculator\\Calculator\\obj\\",
+        "outputPath": "D:\\ITI\\labs\\back\\C#\\7\\Calculator\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",

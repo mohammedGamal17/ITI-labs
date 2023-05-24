@@ -1,0 +1,12 @@
+D:\ITI\Back\C#\D-09\Lab\Tiers\DataManagerLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+D:\ITI\Back\C#\D-09\Lab\Tiers\DataManagerLayer\bin\Debug\net6.0\DataAccessLayer.dll
+D:\ITI\Back\C#\D-09\Lab\Tiers\DataManagerLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+D:\ITI\Back\C#\D-09\Lab\Tiers\DataManagerLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\ITI\Back\C#\D-09\Lab\Tiers\DataManagerLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\Back\C#\D-09\Lab\Tiers\DataManagerLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\ITI\Back\C#\D-09\Lab\Tiers\DataManagerLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+D:\ITI\Back\C#\D-09\Lab\Tiers\DataManagerLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\ITI\Back\C#\D-09\Lab\Tiers\DataManagerLayer\obj\Debug\net6.0\DataAccessLayer.dll
+D:\ITI\Back\C#\D-09\Lab\Tiers\DataManagerLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+D:\ITI\Back\C#\D-09\Lab\Tiers\DataManagerLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+D:\ITI\Back\C#\D-09\Lab\Tiers\DataManagerLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll

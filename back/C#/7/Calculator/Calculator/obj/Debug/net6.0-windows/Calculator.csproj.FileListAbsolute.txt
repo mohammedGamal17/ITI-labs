@@ -16,3 +16,14 @@ D:\ITI\Back\C#\D-07\Lab\Calculator\Calculator\obj\Debug\net6.0-windows\Calculato
 D:\ITI\Back\C#\D-07\Lab\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.genruntimeconfig.cache
 D:\ITI\Back\C#\D-07\Lab\Calculator\Calculator\obj\Debug\net6.0-windows\ref\Calculator.dll
 D:\ITI\Back\C#\D-07\Lab\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.Form2.resources
+D:\ITI\labs\back\C#\7\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.csproj.AssemblyReference.cache
+D:\ITI\labs\back\C#\7\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.Form1.resources
+D:\ITI\labs\back\C#\7\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.Form2.resources
+D:\ITI\labs\back\C#\7\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.csproj.GenerateResource.cache
+D:\ITI\labs\back\C#\7\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\labs\back\C#\7\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.AssemblyInfoInputs.cache
+D:\ITI\labs\back\C#\7\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.AssemblyInfo.cs
+D:\ITI\labs\back\C#\7\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.csproj.CoreCompileInputs.cache
+D:\ITI\labs\back\C#\7\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.dll
+D:\ITI\labs\back\C#\7\Calculator\Calculator\obj\Debug\net6.0-windows\refint\Calculator.dll
+D:\ITI\labs\back\C#\7\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.pdb
