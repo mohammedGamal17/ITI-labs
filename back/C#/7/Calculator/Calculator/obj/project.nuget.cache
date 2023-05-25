@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sS/+QvJopVS+gvHMN1UlOVIPWPVd/EecRZ2AKsAL58mtUss36ndGVNKlgesQ/ax5tFHUjdjJb2lri2z2QIqPcA==",
+  "dgSpecHash": "qwL7LAjiJ2GxrBIbPzku/obKeZFLtZoeGPEoHw3xLWlLbf0Wiszmgq0tPW9fEnBNogYR7SSdwzSf8t42xUHFMA==",
   "success": true,
-  "projectFilePath": "D:\\ITI\\labs\\back\\C#\\7\\Calculator\\Calculator\\Calculator.csproj",
+  "projectFilePath": "D:\\ITI\\Back\\C#\\D-07\\Lab\\Calculator\\Calculator\\Calculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

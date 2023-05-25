@@ -1,4 +1,4 @@
-using Operadores;
+
 using System.Text;
 
 namespace Calculator
@@ -18,7 +18,7 @@ namespace Calculator
 
         Add add = new Add();
         Subtraction sub = new Subtraction();
-        Multiplicacao mul = new Multiplicacao();
+        Multiple mul = new Multiple();
         Division div = new Division();
 
 
@@ -138,10 +138,10 @@ namespace Calculator
                     output.Text = add.AddNumbers(FNum, SNum).ToString();
                     break;
                 case "-":
-                    output.Text = sub.RealizaSub(FNum, SNum).ToString();
+                    output.Text = sub.Sub(FNum, SNum).ToString();
                     break;
-                case "X":
-                    output.Text = mul.RealizaMulti(FNum, SNum).ToString();
+                case "*":
+                    output.Text = mul.Multi(FNum, SNum).ToString();
                     break;
                 case "/":
                     if (SNum == 0)
@@ -149,7 +149,7 @@ namespace Calculator
                         output.Text = "Math Error";
                     }
                     else
-                        output.Text = div.RealizaDiv(FNum, SNum).ToString();
+                        output.Text = div.Div(FNum, SNum).ToString();
                     break;
             }
             StringBuilder sb = new StringBuilder();
