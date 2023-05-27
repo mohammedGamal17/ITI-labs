@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DataBasinessLayer
-build_property.ProjectDir = D:\ITI\Back\C#\D-09\Lab\Tiers\DataBasinessLayer\
+build_property.ProjectDir = D:\ITI\labs\back\C#\9\Tiers\DataBasinessLayer\

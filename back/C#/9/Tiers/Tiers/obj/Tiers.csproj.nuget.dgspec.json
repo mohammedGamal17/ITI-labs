@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\Tiers\\Tiers.csproj": {}
+    "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\Tiers\\Tiers.csproj": {}
   },
   "projects": {
-    "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\DataBasinessLayer\\DataBasinessLayer.csproj": {
+    "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\DataBasinessLayer\\DataBasinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\DataBasinessLayer\\DataBasinessLayer.csproj",
+        "projectUniqueName": "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\DataBasinessLayer\\DataBasinessLayer.csproj",
         "projectName": "DataBasinessLayer",
-        "projectPath": "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\DataBasinessLayer\\DataBasinessLayer.csproj",
+        "projectPath": "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\DataBasinessLayer\\DataBasinessLayer.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\DataBasinessLayer\\obj\\",
+        "outputPath": "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\DataBasinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\DataManagerLayer\\DataAccessLayer.csproj": {
-                "projectPath": "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\DataManagerLayer\\DataAccessLayer.csproj"
+              "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\DataManagerLayer\\DataAccessLayer.csproj": {
+                "projectPath": "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\DataManagerLayer\\DataAccessLayer.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\DataManagerLayer\\DataAccessLayer.csproj": {
+    "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\DataManagerLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\DataManagerLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\DataManagerLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\DataManagerLayer\\DataAccessLayer.csproj",
+        "projectPath": "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\DataManagerLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\DataManagerLayer\\obj\\",
+        "outputPath": "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\DataManagerLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -128,14 +128,14 @@
         }
       }
     },
-    "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\Tiers\\Tiers.csproj": {
+    "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\Tiers\\Tiers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\Tiers\\Tiers.csproj",
+        "projectUniqueName": "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\Tiers\\Tiers.csproj",
         "projectName": "Tiers",
-        "projectPath": "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\Tiers\\Tiers.csproj",
+        "projectPath": "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\Tiers\\Tiers.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\Tiers\\obj\\",
+        "outputPath": "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\Tiers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,11 +152,11 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\DataBasinessLayer\\DataBasinessLayer.csproj": {
-                "projectPath": "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\DataBasinessLayer\\DataBasinessLayer.csproj"
+              "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\DataBasinessLayer\\DataBasinessLayer.csproj": {
+                "projectPath": "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\DataBasinessLayer\\DataBasinessLayer.csproj"
               },
-              "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\DataManagerLayer\\DataAccessLayer.csproj": {
-                "projectPath": "D:\\ITI\\Back\\C#\\D-09\\Lab\\Tiers\\DataManagerLayer\\DataAccessLayer.csproj"
+              "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\DataManagerLayer\\DataAccessLayer.csproj": {
+                "projectPath": "D:\\ITI\\labs\\back\\C#\\9\\Tiers\\DataManagerLayer\\DataAccessLayer.csproj"
               }
             }
           }
