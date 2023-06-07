@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #7960f6;
+    --secondary-color: #faf1fe;
+    --background-color: #d8e5fd;
+    --text: #020e27;
+    --accent: #9b0de3;
+    --white: #ffffff
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    color: var(--accent);
+    margin-bottom: 60px;
+    background-color: var(--background-color);
+}
+
+thead > tr {
+    background-color: var(--primary-color);
+}
+
+thead > tr > th {
+    color: var(--white);
+}
+
+tbody > tr:hover {
+    background-color: var(--secondary-color);
+}

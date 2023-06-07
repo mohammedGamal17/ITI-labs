@@ -1,0 +1,30 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddStudent</title>
+
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <form method="post" action="/student/InsertStudent">
+        <label>Name</label>
+        <input type="text" name="name" placeholder="Name" required /> <br />
+        <label>Age</label>
+        <input type="number" name="age" placeholder="Age" required /><br />
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Email" required /><br />
+
+        <input type="submit" name="submit" />
+    </form>
+</body>
+</html>

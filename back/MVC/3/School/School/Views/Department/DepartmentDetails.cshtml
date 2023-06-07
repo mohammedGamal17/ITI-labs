@@ -1,0 +1,36 @@
+﻿@model Department
+@{
+    ViewBag.Title = "Department Details";
+    Layout = "_layout";
+}
+
+
+<table class="table table-bordered border-bottom">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <th>@Model.Id</th>
+            <th>@Model.Name</th>
+            <th>@Model.Description</th>
+            <th>
+@*                <form class="mb-2" asp-action="UpdateDepartment" asp-controller="Department" asp-route-id="@Model.Id">
+                    <button type="submit" class="btn btn-outline-info">Update</button>
+                </form>*@
+                <form asp-action="DeleteDepartment" asp-controller="Department" asp-route-id="@Model.Id">
+
+                    <input type="submit" class="btn btn-outline-danger" onclick="return confirm('are you sure')" value="Delete" />
+                </form>
+            </th>
+
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,50 @@
+﻿@model Student;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>StudentDetails</title>
+
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <table class="table table-bordered border-bottom">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <th>@Model.Id</th>
+                <th>@Model.Name</th>
+                <th>@Model.Age</th>
+                <th>@Model.Email</th>
+                <th>
+                    <form method="post" action="/Student/UpdateStudent/@Model.Id">
+                        <button type="submit" class="btn-info">Update</button>
+                    </form>
+                    <form method="post" action="/Student/DeleteStudent/@Model.Id">
+                        <button type="submit" class="btn-danger">Delete</button>
+                    </form>
+                </th>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
