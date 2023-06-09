@@ -1,0 +1,25 @@
+﻿@model Student
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Add Student";
+
+}
+
+
+<form class="form-group" asp-action="AddStudent" asp-controller="student">
+
+    <partial name="_Form" />
+
+    <input class="w-100 btn btn-lg btn-primary" type="submit" name="submit" />
+@*    <label asp-for="Name" >Name</label>
+    <input asp-for="Name" /> <br />
+    <label asp-for="Age">Age</label>
+    <input asp-for="Age" /><br />
+    <label asp-for="Email">Email</label>
+    <input asp-for="Email" /><br />
+   *@
+</form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

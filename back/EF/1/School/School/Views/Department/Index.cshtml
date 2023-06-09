@@ -1,0 +1,31 @@
+﻿@model List<Department>
+@{
+    ViewBag.Title = "Index";
+    Layout = "_layout";
+}
+
+<table class="table table-bordered border-bottom">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.ID</th>
+                <th>@item.Name</th>
+                <th>@item.Description</th>
+                <th>
+                    <a class="btn btn-lg btn-outline-info" asp-action="DepartmentDetails" asp-controller="Department" asp-route-id="@item.ID">Details</a>
+                </th>
+            </tr>
+        }
+    </tbody>
+</table>
+<a class="btn btn-lg btn-outline-primary" asp-action="InsertDepartment" asp-controller="Department">Add new Department</a>
+

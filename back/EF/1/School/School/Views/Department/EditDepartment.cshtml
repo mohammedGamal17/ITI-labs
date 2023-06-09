@@ -1,0 +1,29 @@
+﻿@model Department
+@{
+    Layout = "_Layout";
+
+    ViewBag.Title = "Edit Department";
+}
+
+
+<form class="form-group" asp-action="EditDepartment" asp-controller="Department">
+
+    <label asp-for="Name">Name</label>
+    <input class="form-control" asp-for="Name" value="@Model.Name">
+    <span class="text-danger field-validation-valid" asp-validation-for="Name" ></span>
+
+    <br />
+    <label asp-for="Description">Description</label>
+    <input class="form-control" asp-for="Description" value="@Model.Description" />
+    <span class="text-danger  field-validation-valid" asp-validation-for="Description"></span>
+
+    <br />
+
+    <input class="w-100 btn btn-lg btn-primary" type="submit" name="submit" />
+</form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
+
+

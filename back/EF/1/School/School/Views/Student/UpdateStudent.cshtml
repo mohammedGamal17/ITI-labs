@@ -1,0 +1,29 @@
+﻿@model Student
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Update Student";
+}
+
+
+<form asp-action="UpdateStudentForm" asp-controller="student">
+    <label asp-for="Name">Name</label>
+    <input class="form-control" asp-for="Name" value="@Model.Name">
+    <span class="text-danger field-validation-valid" asp-validation-for="Name"></span>
+
+    <br />
+    <label asp-for="Age">Age</label>
+    <input class="form-control" asp-for="Age" value="@Model.Age" />
+    <span class="text-danger  field-validation-valid" asp-validation-for="Age"></span>
+
+    <br />
+    <label asp-for="Email">Email</label>
+    <input class="form-control" asp-for="Email" value="@Model.Email" />
+    <span class="text-danger field-validation-valid" asp-validation-for="Email"></span>
+
+    <br />
+    <input class="btn btn-success" type="submit" name="submit" />
+</form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
