@@ -1,0 +1,51 @@
+﻿@model IEnumerable<SchoolTest.Models.DepartmentsCourses>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_layout";
+}
+
+<h1>Departments Courses</h1>
+
+<p>
+    <a class="btn btn-outline-primary" asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Department)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Department.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Course.Description)
+                </td>
+                <td>
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.DeptID">Details</a>
+                    <a href="@Url.Action("Delete", new { id = item.CursID + "," + item.DeptID  })" class="btn btn-danger">Delete</a>
+
+                    @*
+                <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.DeptID,@item.CursID">Edit</a>
+                <a href="@Url.Action("Edit", new { id = item.CursID + "," + item.DeptID  })" class="btn btn-success">Edit</a>
+
+                <a href="@Url.Action("Edit", new { id=item.CursID })" class="btn btn-danger">Edit</a>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.CursID  }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.CursID  })*@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

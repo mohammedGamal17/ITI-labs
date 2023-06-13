@@ -1,0 +1,49 @@
+﻿@model IEnumerable<SchoolTest.Models.StudentsCourses>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_Layout";
+}
+
+<h1>Students Courses</h1>
+
+<p>
+    <a class="btn btn-outline-primary" asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Grade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Student)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Grade)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Student.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Course.Description)
+                </td>
+                <td>
+                    <a class="btn btn-success" asp-action="Edit" asp-route-CursID="@item.CursID" asp-route-StdId="@item.StdId">Edit</a>
+                    <a class="btn btn-info" asp-action="Details" asp-route-CursID="@item.CursID" asp-route-StdId="@item.StdId">Details</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-CursID="@item.CursID" asp-route-StdId="@item.StdId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

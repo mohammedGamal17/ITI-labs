@@ -1,0 +1,73 @@
+﻿@model School.Models.Student
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "_layout";
+
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Student</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Age)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Age)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Department)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Department.Name)
+        </dd>
+    </dl>
+</div>
+
+@*<div>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <p>Course Name</p>
+                </th>
+                <th>
+                    <p>Course Grade</p>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.StudentsCourses)
+            {
+                <tr>
+                    <th>
+                        <p> @item.Course.Name</p>
+                    </th>
+                    <th>
+                        <p>@item.Grade</p>
+                    </th>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>*@
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ID" class="btn btn-success">Edit</a>
+
+    <a asp-action="Index" class="btn btn-info">Back to List</a>
+</div>
