@@ -1,0 +1,107 @@
+<section class="form p-3 text-capitalize">
+  <div class="col-8">
+    <form action="" method="post">
+      <!--Start Name Input -->
+      <div class="row col-12 g-3 align-items-end mb-3">
+        <!--Start Input -->
+        <div class="col-8 align-items-center">
+          <div class="col-3 mb-1">
+            <label class="col-form-label"> Student Name </label>
+          </div>
+          <input
+            type="text"
+            id="inputUserName"
+            class="form-control"
+            aria-labelledby="userNameHelpInline"
+            required
+            name="studentName"
+            (input)="checkStudentName($event.target)"
+            [(ngModel)]="studentName"
+          />
+        </div>
+        <!--End Input -->
+        <!--Start error handler -->
+        <div *ngIf="!isStudentNameVeiled" class="col-4">
+          <span id="userNameHelpInline" class="form-text fw-bold error">
+            Name Must Between 3 char and 20 char
+          </span>
+        </div>
+        <!--End error handler -->
+      </div>
+      <!--End Name Input -->
+
+      <!--Start Age Input -->
+      <div class="row col-12 g-3 align-items-end mb-3">
+        <!--Start Input -->
+        <div class="col-8 align-items-center">
+          <div class="col-3 mb-1">
+            <label class="col-form-label"> Student Age </label>
+          </div>
+          <input
+            type="number"
+            id="inputAge"
+            class="form-control"
+            aria-labelledby="ageHelpInline"
+            required
+            name="studentAge"
+            (input)="checkStudentAge($event.target)"
+            [(ngModel)]="studentAge"
+          />
+        </div>
+        <!--End Input -->
+
+        <!--Start error handler -->
+
+        <div *ngIf="!isStudentAgeVeiled" class="col-4">
+          <span id="ageHelpInline" class="form-text fw-bold error">
+            Age Must Be Between 18 And 60 years old.
+          </span>
+        </div>
+        <!--End error handler -->
+      </div>
+      <!--End Age Input -->
+
+      <!--Start Submit btn -->
+      <div
+        *ngIf="isStudentNameVeiled && isStudentAgeVeiled"
+        class="row col-12 g-3 align-items-end mb-3"
+      >
+        <div class="col-12 align-items-center">
+          <button
+            value="submit"
+            class="btn mb-3 col-8 submitBtn"
+            (click)="insertIntoStudents()"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+      <!--End Submit btn -->
+    </form>
+  </div>
+</section>
+
+<div *ngIf="studentArray.length != 0" class="p-3">
+  <table class="table table-striped">
+    <thead class="table-success">
+      <tr>
+        <td>ID</td>
+        <td>Name</td>
+        <td>Age</td>
+        <td></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of studentArray; let i = index">
+        <th>{{ i + 1 }}</th>
+        <th>{{ item.name }}</th>
+        <th>{{ item.age }}</th>
+        <th>
+          <div class="btn btn-outline-danger" (click)="deleteStudent(i)">
+            delete
+          </div>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</div>

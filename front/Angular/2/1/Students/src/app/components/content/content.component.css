@@ -1,0 +1,25 @@
+:root {
+  --text: #0a0727;
+  --background: #dbd8f8;
+  --primary-button: #52177d;
+  --secondary-button: #fdf6fd;
+  --accent: #270724;
+}
+
+.error {
+  color: #ff0000;
+}
+
+button {
+  background-color: var(--primary-button);
+  color: var(--secondary-button);
+}
+
+thead > tr {
+  background-color: #0a0727;
+}
+
+tbody > tr:hover {
+  background-color: var(--primary-button);
+  color: var(--secondary-button);
+}
