@@ -1,6 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
-*{
+:root {
+    --text: #05150f;
+    --background: #eefbf7;
+    --primary-button: #a72550;
+    --secondary-button: #def8ef;
+    --accent: #a72550;
+}
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    color: var(--accent);
 }

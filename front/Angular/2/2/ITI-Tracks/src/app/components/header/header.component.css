@@ -1,0 +1,22 @@
+:root {
+    --text: #05150f;
+    --background: #eefbf7;
+    --primary-button: #a72550;
+    --secondary-button: #def8ef;
+    --accent: #a72550;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('src/assets/images/itiBuilding.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 1rem;
+    color: var(--background);
+}
+
+img {
+    width: max-content;
+    height: 100px;
+}

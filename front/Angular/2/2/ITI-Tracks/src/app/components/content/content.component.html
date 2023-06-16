@@ -1,1 +1,27 @@
-<p>content works!</p>
+<div class="content m-5 p-5 border rounded">
+    <h2>ITI Branches</h2>
+    <select class="form-select form-select-lg mb-3"
+        aria-label=".form-select-lg example" #mySelect
+        (change)="getBranchById(mySelect.value)">
+        <option selected value="0">Open this select menu</option>
+        <option *ngFor="let branch of branches" value="{{branch.id}}">{{branch.name}}</option>
+    </select>
+
+    <table
+        *ngIf="selectedBranch != null && selectedBranchID != null && selectedBranchID >0"
+        class="table">
+        <thead class="table-primary fs-3">
+            <tr> {{selectedBranch.name}} </tr>
+            <tr>
+                <th>ID</th>
+                <th>Track Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let track of selectedBranch.Tracks">
+                <th>{{track.id}}</th>
+                <th>{{track.name}}</th>
+            </tr>
+        </tbody>
+    </table>
+</div>

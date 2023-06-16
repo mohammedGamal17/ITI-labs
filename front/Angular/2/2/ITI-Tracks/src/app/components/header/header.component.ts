@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  //#region Fields
+  itiLogo: string = "itiLogo.png";
+  itiBuilding: string = "itiBuilding.jpg";
+  //#endregion
 
 }
