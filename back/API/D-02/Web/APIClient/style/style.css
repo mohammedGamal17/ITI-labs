@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #8db9ca;
+}
+
+thead>tr {
+    background-color: #fff;
+    font-size: large;
+    font-weight: bolder;
+}
+
+tbody>tr {
+    background-color: #005670;
+    color: #fff;
+}
+
+tbody>tr:hover {
+    background-color: #008eaa;
+    color: #fff;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
