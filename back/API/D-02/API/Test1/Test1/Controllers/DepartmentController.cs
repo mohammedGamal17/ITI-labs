@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Test1.DTO.Department;
 using Test1.Models;
 using Test1.Service;
 
@@ -44,7 +43,6 @@ namespace Test1.Controllers
                 ID = department.ID,
                 Name = department.Name,
                 Description = department.Description,
-
                 Students = department.Students,
             };
 

@@ -25,9 +25,18 @@ public partial class Student
 
     public int DeptID { get; set; }
 
+    public int? StudentSuper { get; set; }
+
     [ForeignKey("DeptID")]
     [InverseProperty("Students")]
     public virtual Department Dept { get; set; }
+
+    [InverseProperty("StudentSuperNavigation")]
+    public virtual ICollection<Student> InverseStudentSuperNavigation { get; set; } = new List<Student>();
+
+    [ForeignKey("StudentSuper")]
+    [InverseProperty("InverseStudentSuperNavigation")]
+    public virtual Student StudentSuperNavigation { get; set; }
 
     [InverseProperty("Std")]
     public virtual ICollection<StudentsCourse> StudentsCourses { get; set; } = new List<StudentsCourse>();

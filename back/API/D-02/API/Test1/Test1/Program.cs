@@ -41,6 +41,7 @@ namespace Test1
                 );
 
             builder.Services.AddScoped<IRepository<Department>, DepartmentService>();
+            builder.Services.AddScoped<IRepository<Student>, StudentService>();
 
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

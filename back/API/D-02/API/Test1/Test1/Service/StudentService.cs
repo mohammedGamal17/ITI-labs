@@ -23,6 +23,9 @@ namespace Test1.Service
         {
             return await _context
                 .Students
+                .Include(s => s.InverseStudentSuperNavigation)
+                .Include(s => s.StudentSuperNavigation)
+                .Include(s => s.Dept)
                 .Include(s => s.StudentsCourses)
                 .ThenInclude(sc => sc.Curs)
                 .ToListAsync();
@@ -31,6 +34,9 @@ namespace Test1.Service
         public Task<Student> GetByIdAsync(int id)
         {
             return _context.Students
+                .Include(s => s.InverseStudentSuperNavigation)
+                .Include(s => s.StudentSuperNavigation)
+                .Include(s => s.Dept)
                 .Include(s => s.StudentsCourses)
                 .ThenInclude(sc => sc.Curs)
                 .FirstOrDefaultAsync(s => s.ID == id);

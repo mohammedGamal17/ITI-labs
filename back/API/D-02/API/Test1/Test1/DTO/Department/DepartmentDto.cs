@@ -1,6 +1,6 @@
 ﻿using Test1.Models;
 
-namespace Test1.DTO.Department
+namespace Test1
 {
     public class DepartmentDto
     {

@@ -5,7 +5,7 @@ namespace Test1.Service
 {
     public class DepartmentService : IRepository<Department>
     {
-        #region Fileds
+        #region Fields
         SchoolContext _context;
         #endregion
 
