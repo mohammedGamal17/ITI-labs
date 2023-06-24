@@ -1,0 +1,12 @@
+img {
+    height: 17rem;
+}
+
+.color {
+    background-color: #ff3535;
+    /* Add any other styles to change the appearance of the button */
+}
+
+.border {
+    border: none;
+}

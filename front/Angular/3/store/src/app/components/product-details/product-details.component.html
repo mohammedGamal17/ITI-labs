@@ -1,0 +1,22 @@
+<div class="card text-center" id="main">
+  <h5 class="card-title mt-3 fs-1">{{ product?.name }}</h5>
+
+  <img
+    [src]="product?.imageURL"
+    class="card-img-top"
+    alt="{{ product?.name }}"
+  />
+
+  <div class="card-body">
+    <p class="card-text fs-5">{{ product?.description }}</p>
+    <a
+      [href]="product?.quantity !== 0 ? '#' : null"
+      class="btn btn-primary me-1"
+      [class.color]="product?.quantity === 0"
+      [class.disabled]="product?.quantity === 0"
+      [class.border]="product?.quantity === 0"
+    >
+      <i class="fa-solid fa-cart-plus"></i>
+    </a>
+  </div>
+</div>

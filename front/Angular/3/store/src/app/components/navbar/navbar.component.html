@@ -1,1 +1,39 @@
-<p>navbar works!</p>
+<nav class="navbar navbar-expand-lg bg-body-emphasis">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">SOUQ</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav container-fluid">
+        <li class="nav-item me-auto">
+          <a
+            class="nav-link me-4"
+            [routerLink]="['/products']"
+            [routerLinkActive]="'text-primary'"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >Products</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            [routerLink]="['/auth']"
+            [routerLinkActive]="'text-success'"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >Login</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

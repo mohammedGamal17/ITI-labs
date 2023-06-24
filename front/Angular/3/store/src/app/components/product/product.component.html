@@ -1,0 +1,36 @@
+<div class="card">
+  <img [src]="product?.imageURL" class="card-img-top" alt="..." />
+  <div class="card-body">
+    <h5 class="card-title">{{ product?.name }}</h5>
+    <p class="card-text">{{ product?.description }}</p>
+    <p>
+      <span>Price: {{ product?.price | currency : "EGP" }}</span>
+    </p>
+    <div [ngSwitch]="product?.quantity">
+      <p
+        *ngSwitchCase="0"
+        class="text-danger fw-bolder text-uppercase fst-italic"
+      >
+        This product is out of stock
+      </p>
+      <p *ngSwitchCase="1" class="text-warning fw-bolder">
+        This is the last piece
+      </p>
+      <p *ngSwitchDefault class="text-success">
+        Quantity: {{ product?.quantity }}
+      </p>
+    </div>
+    <a
+      [href]="product?.quantity !== 0 ? '#' : null"
+      class="btn btn-primary me-1"
+      [class.color]="product?.quantity === 0"
+      [class.disabled]="product?.quantity === 0"
+      [class.border]="product?.quantity === 0"
+    >
+      <i class="fa-solid fa-cart-plus"></i>
+    </a>
+    <a [routerLink]="['/product', product?.id]" class="btn btn-info">
+      <i class="fa-solid fa-circle-info text-light"> </i>
+    </a>
+  </div>
+</div>

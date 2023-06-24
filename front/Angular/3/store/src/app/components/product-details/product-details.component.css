@@ -1,0 +1,23 @@
+#main {
+    margin: 0rem 2.5rem;
+    height: 100vh;
+    background-color: #f6f6f62b;
+}
+
+img {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 70%;
+}
+
+
+.color {
+    background-color: #ff3535;
+    /* Add any other styles to change the appearance of the button */
+}
+
+.border {
+    border: none;
+}

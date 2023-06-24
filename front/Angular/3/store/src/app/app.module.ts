@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProductsComponent } from './components/products/products.component';
-import { ProductComponent } from './components/products/product/product.component';
-import { ProductDetailsComponent } from './components/products/product-details/product-details.component';
-import { ProductEditComponent } from './components/products/product-edit/product-edit.component';
+import { ProductComponent } from './components/product/product.component';
+import { ProductDetailsComponent } from './components/product-details/product-details.component';
+import { ProductEditComponent } from './components/product-edit/product-edit.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { SliderComponent } from './components/slider/slider.component';
+import { AuthComponent } from './components/auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     ProductComponent,
     ProductDetailsComponent,
     ProductEditComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    SliderComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
