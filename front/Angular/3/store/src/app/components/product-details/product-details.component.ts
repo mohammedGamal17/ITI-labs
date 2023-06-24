@@ -1,6 +1,7 @@
 import { Component, OnChanges, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Product, productList } from '../../models/Product';
+import { ProductService } from 'src/app/services/product.service';
 
 @Component({
   selector: 'app-product-details',
@@ -10,16 +11,17 @@ import { Product, productList } from '../../models/Product';
 export class ProductDetailsComponent implements OnInit {
   productID?: number;
   product?: Product;
-  constructor(private route: ActivatedRoute) {
+  constructor(
+    private productService: ProductService,
+    private route: ActivatedRoute,
+    private router: Router
+  ) {}
+  ngOnInit(): void {
     this.route.params.subscribe((params) => {
       this.productID = params['id'];
     });
+    if (this.productID != null && this.productID > 0)
+      this.product = this.productService.getProductById(this.productID!);
+    else this.router.navigate(['/products']);
   }
-  ngOnInit(): void {
-    this.product = getProduct(this.productID!);
-  }
-}
-
-function getProduct(id: number): Product {
-  return productList.filter((p) => Number(p.id) === Number(id))[0];
 }
