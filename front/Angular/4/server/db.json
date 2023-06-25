@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "ImgUrl": "/assets/images/fossil.jpg",
+      "ProductName": "Fossil",
+      "Price": 5000,
+      "Quantity": 2
+    },
+    {
+      "id": 2,
+      "ImgUrl": "/assets/images/gucci.jpg",
+      "ProductName": "Gucci",
+      "Price": 3000,
+      "Quantity": 5
+    },
+    {
+      "ProductName": "Olevs",
+      "Price": 2500,
+      "Quantity": 0,
+      "ImgUrl": "/assets/images/olevs.jpg",
+      "id": 3
+    },
+    {
+      "ProductName": "Smart Watch",
+      "Price": 4000,
+      "Quantity": 1,
+      "ImgUrl": "/assets/images/smart.jpg",
+      "id": 4
+    },
+    {
+      "ProductName": "Taxau",
+      "Price": 1500,
+      "Quantity": 1,
+      "ImgUrl": "/assets/images/taxau.jpg",
+      "id": 5
+    },
+    {
+      "ProductName": "Tag Heuer ",
+      "Price": 50,
+      "Quantity": 3,
+      "ImgUrl": "/assets/images/tagheuer.jpg",
+      "id": 6
+    },
+    {
+      "ProductName": "new watch",
+      "Price": 1000,
+      "Quantity": 5,
+      "ImgUrl": "/assets/images/def.png",
+      "id": 7
+    }
+  ]
+}

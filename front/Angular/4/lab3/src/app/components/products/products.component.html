@@ -1,0 +1,31 @@
+
+<div class=" row m-2 p-2">
+  <div *ngFor="let product of products" class="col-6 col-md-4 col-lg-3 my-2">
+    <div  class="card" style="width: 22rem;">
+      <img [src]="product.ImgUrl" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{product.ProductName}}</h5>
+        <p class="card-text">ID: {{product.id}}</p>
+        <p class="card-text">Price: {{product.Price | currency}}</p>
+        <p class="card-text">Quantity: {{product.Quantity}}</p>
+        <div class="text-center fs-3 rounded"  [style.background-color]="product.Quantity >1 ?'green' : 'rgb(255, 225, 0)'">
+          <p class="bg-danger rounded" *ngIf="product.Quantity == 0; else myp">Sold Out</p>
+          <ng-template #myp>
+          <p>Buy Now</p>
+          </ng-template>
+        </div>
+        <!-- <a [routerLink]="['/details',product.id]" class="btn btn-outline-primary ms-5 me-2">View</a>
+        <a [routerLink]="['/addProduct',product.id]" class="btn btn-outline-warning me-2">Edit</a> -->
+        <div class="text-center">
+          <a [routerLink]="['/details',product.id]" class="bi bi-eye-fill  me-4 text-info fs-2"></a>
+          <a [routerLink]="['/addProduct',product.id]" class="bi bi-pencil-square me-4 text-warning fs-2"></a>
+          <a [routerLink]="['/products']" (click)="deleteProduct(product.id)" class="bi bi-trash3-fill text-danger fs-2"></a>
+
+        </div>
+        
+  
+      </div>
+    </div>
+  </div>
+    
+</div>

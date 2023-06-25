@@ -1,0 +1,15 @@
+<h1 class="m-5 text-center">Product Details</h1>
+
+<div class="container text-center d-flex justify-content-center">
+<div class="card mb-5" style="width: 18rem;">
+    <img [src]="product.ImgUrl" class="card-img-top" alt="...">
+    <hr>
+    <div class="card-body">
+      <h5 class="card-title">{{product.ProductName}}</h5>
+      <p class="card-text">ID: {{product.id}}</p>
+      <p class="card-text">Price: {{product.Price}}</p>
+      <p class="card-text">Quantity: {{product.Quantity}}</p>
+      <a [routerLink]="'/products'" class="btn btn-dark">back to list</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<form class="w-75 m-5" [formGroup]="productForm" (submit)="addProduct($event)">
+    <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Product Name</label>
+        <input formControlName="ProductName" type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Product Name">
+        <ng-container *ngIf="getProductName.touched">
+            <div *ngIf="getProductName.hasError('required')" class="form-text text-danger">Product Name Is Required</div>
+            <div *ngIf="getProductName.hasError('minLength')" class="form-text text-danger">Product Name should be 3 or more</div>
+        </ng-container>
+    </div>
+    <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">Price</label>
+        <input formControlName="Price" type="number" class="form-control" id="formGroupExampleInput2" placeholder="Enter Price">
+        <ng-container *ngIf="getPrice.touched">
+            <div *ngIf="getPrice.hasError('required')" class="form-text text-danger">Price Name Is Required</div>
+        </ng-container>
+    </div>
+    <div class="mb-3">
+        <label for="formGroupExampleInput3" class="form-label">Quantity</label>
+        <input formControlName="Quantity" type="number" class="form-control" id="formGroupExampleInput3" placeholder="Enter Quantity">
+        <ng-container *ngIf="getQuantity.touched">
+            <div *ngIf="getQuantity.hasError('required')" class="form-text text-danger">Quantity Name Is Required</div>
+        </ng-container>
+    </div>
+    <div>{{productForm.value | json}}</div>
+    <button type="submit" class="mt-4 btn btn-dark" >{{productId == 0?'Add Product':'Edit Product'}} </button>
+</form>
