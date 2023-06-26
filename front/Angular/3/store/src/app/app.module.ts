@@ -11,6 +11,7 @@ import { ProductEditComponent } from './components/product-edit/product-edit.com
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { AuthComponent } from './components/auth/auth.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,13 +23,10 @@ import { AuthComponent } from './components/auth/auth.component';
     ProductEditComponent,
     NotFoundComponent,
     SliderComponent,
-    AuthComponent
+    AuthComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

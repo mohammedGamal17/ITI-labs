@@ -14,4 +14,12 @@ export class AuthService {
       password: _password,
     };
   }
+
+  get isLogin(): boolean {
+    if (this.currentUser?.username && this.currentUser?.password) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }

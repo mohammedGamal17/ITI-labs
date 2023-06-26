@@ -2,25 +2,31 @@
   class="container d-flex align-items-center justify-content-center vh-100 text-center"
 >
   <div class="row">
-    <form>
+    <form (ngSubmit)="Login()">
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <label for="exampleInputUsername" class="form-label">Username</label>
         <input
-          type="email"
+          [(ngModel)]="username"
+          name="username"
+          type="username"
           class="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
+          id="exampleInputUsername"
+          aria-describedby="usernameHelp"
+          required
         />
-        <div id="emailHelp" class="form-text">
-          We'll never share your email with anyone else.
+        <div id="usernameHelp" class="form-text">
+          We'll never share your username with anyone else.
         </div>
       </div>
       <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Password</label>
         <input
+          [(ngModel)]="password"
+          name="password"
           type="password"
           class="form-control"
           id="exampleInputPassword1"
+          required
         />
       </div>
       <div class="mb-3 form-check">

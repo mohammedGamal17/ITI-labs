@@ -1,5 +1,5 @@
 <!-- Start User Section -->
-<div *ngIf="!admin">
+<div *ngIf="!IsLogin">
   <app-slider></app-slider>
   <section class="container">
     <h2>Products</h2>
@@ -11,3 +11,47 @@
   </section>
 </div>
 <!-- End User Section -->
+
+<!-- Start Admin Section -->
+<div *ngIf="IsLogin">
+  <section class="container">
+    <h2>Products</h2>
+    <div class="row p-2 text-center products">
+      <table class="table">
+        <thead>
+          <tr class="table-secondary">
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Image</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let product of products; let i = index">
+            <th>{{ product.id }}</th>
+            <th>{{ product.name }}</th>
+            <th>{{ product.description }}</th>
+            <th>{{ product.price }}</th>
+            <th>{{ product.quantity }}</th>
+            <th>
+              <img [src]="product.imageURL" alt="product.name" />
+            </th>
+            <th>
+              <a
+                [routerLink]="['/products', product?.id]"
+                class="btn btn-primary me-2"
+                >details</a
+              >
+              <a class="btn btn-warning me-2">edit</a>
+              <a class="btn btn-danger">delete</a>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</div>
+<!-- End Admin Section -->
