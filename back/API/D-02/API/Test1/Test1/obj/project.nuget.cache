@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ysU/mrP6G+mXoIvNNoq18Hw/hWugRGz8fdSlIRpCLSOjHbS9hTp/FSoy1rWw2bWzRwM+KXxu7Yg6lklNj8+f6w==",
+  "dgSpecHash": "VPiUVDLP+YwU4o+9BHofRxO7bjRfM5LQDFjGL3Tdppe/0u/Zp3BRLw/ngjFg9TuGaKQTfEa2xhZqoqQEBZqoRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\moham\\OneDrive\\Desktop\\API Labs\\D-02\\API\\Test1\\Test1\\Test1.csproj",
+  "projectFilePath": "D:\\ITI\\labs\\back\\API\\D-02\\API\\Test1\\Test1\\Test1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moham\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
