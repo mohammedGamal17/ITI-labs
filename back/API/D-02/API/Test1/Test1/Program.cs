@@ -36,7 +36,7 @@ namespace Test1
             builder.Services.AddDbContext<SchoolContext>(
                 options => options
                 .UseSqlServer(
-                    builder.Configuration.GetConnectionString("schoolCon")
+                    builder.Configuration.GetConnectionString("connection")
                     )
                 );
 
