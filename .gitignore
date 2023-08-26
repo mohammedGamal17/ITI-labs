@@ -1,0 +1,22 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/back/API/D-02/API/Test1/.vs/ProjectEvaluation/test1.projects.v7.bin
+/back/API/D-02/API/Test1/.vs/ProjectEvaluation/test1.metadata.v7.bin
+/back/API/D-02/API/Test1/.vs/Test1/DesignTimeBuild/.dtbcache.v2
+*.vsidx
+/back/API/D-02/API/Test1/.vs/Test1/FileContentIndex/5b9ef8d7-dea9-4e09-b2a9-4e4e4ff2262c.vsidx
+/back/API/D-02/API/Test1/.vs/Test1/FileContentIndex/78e17c00-0532-4d2f-ac55-53cab51dd7d1.vsidx
+/back/API/D-02/API/Test1/.vs/Test1/FileContentIndex/7e81f551-2a5c-4c3d-8ce5-3e6f77ec88a7.vsidx
+/back/API/D-02/API/Test1/.vs/Test1/FileContentIndex/e4337510-145a-40b9-8e9d-de8c8e32b05b.vsidx
+/back/API/D-02/API/Test1/.vs/Test1/FileContentIndex/read.lock
+/back/API/D-02/API/Test1/.vs/Test1/v17/.suo
+/back/API/D-02/API/Test1/Test1/obj/Debug/net7.0/apphost.exe
+/back/API/D-02/API/Test1/Test1/obj/Debug/net7.0/Test1.assets.cache
+/back/API/D-02/API/Test1/Test1/obj/Debug/net7.0/Test1.csproj.AssemblyReference.cache
+/back/API/D-02/API/Test1/Test1/obj/project.assets.json
+/back/API/D-02/API/Test1/Test1/obj/project.nuget.cache
+/back/API/D-02/API/Test1/Test1/obj/Test1.csproj.nuget.dgspec.json
+/back/API/D-02/API/Test1/Test1/obj/Test1.csproj.nuget.g.props
+*.rar
